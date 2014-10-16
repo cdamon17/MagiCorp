@@ -1,5 +1,17 @@
 "magicorp" by Cole Damon
 
+[Code to display a player's location in the game and possible exits in the header.
+code from Tonic by Brianna Hartner]
+When play begins:
+	now left hand status line is "Exits: [exit list]";
+	now right hand status line is "[location]".
+	
+To say exit list:
+	let place be location;
+	repeat with way running through directions:
+		let place be the room way from the location;
+		if place is a room, say " [way] ".
+
 Confrence Room is a room. 
 
 Offices is a room. Offices is north of Confrence Room.
