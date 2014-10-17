@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>D7BCF82C-0005-4701-A740-BC6EFEB4D48B</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>magicorp</title>
+            <author>Cole Damon</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2014</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2014-10-16</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6L38</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6L38</generatorversion>
+            <originated>2014-10-16</originated>
+        </colophon>
+        <glulx>
+            <serial>141016</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6L38</compiler>
+        </glulx>
+    </story>
+</ifindex>
