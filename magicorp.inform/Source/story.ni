@@ -22,7 +22,7 @@ Elevator is a room. Elevator is east of Hallway.
 
 Closet is a room. Closet is north of Hallway.
 
-Enemy Company is a room. Enemy Company is north of Closet.
+Dark Arts Inc is a room. Dark Arts Inc is north of Closet.
 
 Gaurd Office is a room. Gaurd Office is east of Offices.
 
@@ -86,7 +86,19 @@ The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy
 
 
 [spell to unlock final door:
-]
+Understand "   " or "say    " as casting ______  .
+
+Casting   ______  is an action applying to nothing.
+
+[conditions of casting]
+Check casting  ____  :
+	if the player does not have Spell Note, say "The words were said correctly, but it seems that they also need the source material of the spell to chanel magic through."instead;
+	if the player has Spell Note, say ""
+	
+
+[action of what happens]
+Carry out casting  ___  :
+	move Void door to north of Closet.]
 
 
 [puzzles to use:

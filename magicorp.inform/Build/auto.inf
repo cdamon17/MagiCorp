@@ -43,7 +43,7 @@ Global Story = BC_0;
 Constant Headline BC_1;
 Constant Story_Author BC_2;
 Release 1;
-Serial "141016";
+Serial "141019";
 
 Default Story 0;
 Default Headline 0;
@@ -10536,8 +10536,8 @@ Array Map_Storage -->
  0 0 0 I124_confrence_room 0 0 I130_gaurd_office I126_hallway 0 0 0 0 ! Exits from: I125_offices
  I128_closet 0 0 0 0 0 I127_elevator I127_elevator 0 0 0 0 ! Exits from: I126_hallway
  0 0 0 0 0 0 I126_hallway I126_hallway 0 0 0 0 ! Exits from: I127_elevator
- I129_enemy_company 0 0 I126_hallway 0 0 0 0 0 0 0 0 ! Exits from: I128_closet
- 0 0 0 I128_closet 0 0 0 0 0 0 0 0 ! Exits from: I129_enemy_company
+ I129_dark_arts_inc 0 0 I126_hallway 0 0 0 0 0 0 0 0 ! Exits from: I128_closet
+ 0 0 0 I128_closet 0 0 0 0 0 0 0 0 ! Exits from: I129_dark_arts_inc
  0 0 0 0 0 0 0 I125_offices 0 0 0 0 ! Exits from: I130_gaurd_office
  0 0 0 0 0 0 I132_security_room I124_confrence_room 0 0 0 0 ! Exits from: I131_meeting_room
  0 0 0 0 0 0 0 I131_meeting_room 0 0 0 0 ! Exits from: I132_security_room
@@ -11085,7 +11085,7 @@ Object I128_closet ""
     with cap_short_name BC_173
     has mark_as_room
     with IK1_Count 4
-    with IK1_Link I129_enemy_company
+    with IK1_Link I129_dark_arts_inc
     with KD_Count 1
     with name 'closet' 'rooms//p' 
     with description BC_174
@@ -11094,7 +11094,7 @@ Object I128_closet ""
     with article BC_177
 ;
 
-Object I129_enemy_company ""
+Object I129_dark_arts_inc ""
     class K1_room
     with short_name BC_178
     has proper
@@ -11105,7 +11105,7 @@ Object I129_enemy_company ""
     with IK1_Count 5
     with IK1_Link I130_gaurd_office
     with KD_Count 1
-    with name 'enemy' 'company' 'rooms//p' 
+    with name 'dark' 'arts' 'inc' 'rooms//p' 
     with description BC_180
     with list_together BC_181
     with plural BC_182
@@ -47811,8 +47811,8 @@ Constant TX_PS_32 = "As good-looking as ever.";
 Constant TX_PS_38 = "Closet";
 Constant TX_PS_4 = "Cole Damon";
 Constant TX_PS_34 = "Confrence Room";
+Constant TX_PS_39 = "Dark Arts Inc";
 Constant TX_PS_37 = "Elevator";
-Constant TX_PS_39 = "Enemy Company";
 Constant TX_PS_44 = "Fiction";
 Constant TX_PS_40 = "Gaurd Office";
 Constant TX_PS_36 = "Hallway";
