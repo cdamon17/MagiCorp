@@ -11,31 +11,67 @@ To say exit list:
 	repeat with way running through directions:
 		let place be the room way from the location;
 		if place is a room, say " [way] ".
+		
+[Code to disable take all from Ragnarok by Marissa Takebayashi]
+Rule for deciding whether all includes something: it does not.
+[Code for snide remark after take all from A Day for Spelling by Mary Kiang]
+Rule for printing a parser error when the latest parser error is the nothing to do error: say "That would make things to easy, try to have some fun :)" instead.
 
-Confrence Room is a room. 
+[code needed to change what is said for take all
+if player takes all, say "That would make things to easy."]
 
-Offices is a room. Offices is north of Confrence Room.
+When play begins: say "This is an exiting day! You have been invited by the board to sit in on a conference about the company's newest product for techno magic. As you open the door, your face contorts in horror to find all the Conference Room littered with the unmoving bodies of the board members. This is a tragidy, I looks the company will be thrown into ruin "
 
-Hallway is a room. Hallway is west of Offices and east of Elevator.
+The description of the player is ""
 
-Elevator is a room. Elevator is east of Hallway.
+bodies is a thing. bodies is in Conference Room. bodies is scenery. the description is ""
 
-Closet is a room. Closet is north of Hallway.
+Conference Room is a room. ""
 
-Dark Arts Inc is a room. Dark Arts Inc is north of Closet.
+Offices is a room. Offices is north of Conference Room. ""
 
-Gaurd Office is a room. Gaurd Office is east of Offices.
+Hallway is a room. Hallway is west of Offices and east of Elevator. ""
 
-Meeting Room is a room. Meeting Room is east of Confrence Room.
+Elevator is a room. Elevator is east of Hallway. ""
 
-Security Room is a room. Security Room is east of Meeting Room.
+Closet is a room. Closet is north of Hallway. ""
+
+Dark Arts Inc is a room. Dark Arts Inc is north of Closet. ""
+
+Gaurd Office is a room. Gaurd Office is east of Offices. ""
+
+Meeting Room is a room. Meeting Room is east of Conference Room. ""
+
+Security Room is a room. Security Room is east of Meeting Room. ""
 
 
 
 
 
-[Code for a combination puzzle from Tonic by Brianna Hartner
+
+
+[sample of NPC code from Loose Dragon by EJ Talevera
+In Training room is a male person called Alfred. The description of Alfred is "Your personal butler who has been with you for 15 years. He can assist you with anything."
+
+Instead of asking the Alfred about "Draco":
+say "No sir, I haven't seen Draco around here recently. He's probably wondering around. I think I closed all the windows. Better find him quick."
+
+Instead of asking the Alfred about "Dragon Gloves":
+say "Yes I might know where those gloves are, but I think I need a little cash to jog my memory."
+
+Instead of giving Money to Alfred:
+say "Oh yes the gloves are in my back pocket. Here you go.";
+remove money from play;
+move pair of Dragon Gloves to player.]
+
+
+
+[Code for a combination puzzle from Tonic by Brianna Hartner]
 [The combining action]
+Clapm is a thing. Clamp is in Conference Room.
+Spatula is a thing. Spatuala is in Conference Room.
+Tongs is a thing. Tongs is in Conference Room.
+
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
 
@@ -71,18 +107,20 @@ Report combining it with:
 
 
 Table of Holoprojector Parts
-Parts List	Results
-{Clamp, Spatula}	Clamp Spatula Thingy
-{Clamp, Tongs}	Clamp Tong Thingy
-{Spatula, Tongs}	Spatula Tong Thingy
-{Clamp Spatula Thingy, Tongs}	Arm Thingy
-{Clamp Tong Thingy, Spatula}	Arm Thingy
-{Spatula Tong Thingy, Clamp}	Arm Thingy
-{Clamp, Spatula, Tongs}	Arm Thingy
+Parts List				Results
+{Clamp, Spatula}				Clamp Spatula Thingy
+{Clamp, Tongs}				Clamp Tong Thingy
+{Spatula, Tongs}				Spatula Tong Thingy
+{Clamp Spatula Thingy, Tongs}				Arm Thingy
+{Clamp Tong Thingy, Spatula}				Arm Thingy
+{Spatula Tong Thingy, Clamp}				Arm Thingy
+{Clamp, Spatula, Tongs}				Arm Thingy
 
 The Clamp Spatula Thingy is an object. The description of the Clamp Spatula Thingy is "Clamp and Spatula… Need anything else?"
 The Clamp Tong Thingy is an object. The description of the Clamp Tong Thingy is "Clamp and Pair of Tongs… Need anything else?"
-The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"]
+The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"
+The Arm Thingy is an object. The description is ""
+
 
 
 [spell to unlock final door:

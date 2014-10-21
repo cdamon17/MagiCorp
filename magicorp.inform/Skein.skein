@@ -7,15 +7,28 @@
     <result xml:space="preserve">
 
 
+This is an exiting day! You have been invited by the board to sit in on a conference 
 magicorp
 An Interactive Fiction by Cole Damon
-Release 1 / Serial number 141014 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141020 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-Confrence Room
+Conference Room
+You can see Clamp, Spatuala and Tongs here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="0">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="3">NO</temporary>
+    <children>
+      <child nodeId="node-0xdbc71f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdbc71f0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">That would make things to easy, try to have some fun :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
   </item>
 </Skein>
