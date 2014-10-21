@@ -20,7 +20,7 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 [code needed to change what is said for take all
 if player takes all, say "That would make things to easy."]
 
-When play begins: say "This is an exiting day! You have been invited by the board to sit in on a conference about the company's newest product for techno magic. As you open the door, your face contorts in horror to find all the Conference Room littered with the unmoving bodies of the board members. This is a tragidy, I looks the company will be thrown into ruin "
+When play begins: say "This is an exiting day! You have been invited by the board to sit in on a conference about the company's newest product for techno magic. As you open the door, your face contorts in horror to find all the Conference Room littered with the unmoving bodies of the board members. This is a tragidy, the company will be thrown into ruin from this loss unless the true murderer can be caught. It is up to you to find the culprate and save Magicorp."
 
 The description of the player is ""
 
@@ -38,7 +38,7 @@ Closet is a room. Closet is north of Hallway. ""
 
 Dark Arts Inc is a room. Dark Arts Inc is north of Closet. ""
 
-Gaurd Office is a room. Gaurd Office is east of Offices. ""
+Guard Office is a room. Guard Office is east of Offices. ""
 
 Meeting Room is a room. Meeting Room is east of Conference Room. ""
 
