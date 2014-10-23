@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1842f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x4408a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x13319920" />
-  <item nodeId="node-0x1842f0">
+  <activeNode nodeId="node-0x4408a0" />
+  <item nodeId="node-0x4408a0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -23,14 +23,14 @@ You can see Clamp, Spatula, Tongs and Spell Note here.
     <changed>NO</changed>
     <temporary score="89">NO</temporary>
     <children>
-      <child nodeId="node-0x7cd7c60" />
-      <child nodeId="node-0x4e9740" />
-      <child nodeId="node-0x184340" />
-      <child nodeId="node-0x13336f90" />
-      <child nodeId="node-0x7cfb6b0" />
+      <child nodeId="node-0x441730" />
+      <child nodeId="node-0x4412a0" />
+      <child nodeId="node-0x441230" />
+      <child nodeId="node-0x440f40" />
+      <child nodeId="node-0x440940" />
     </children>
   </item>
-  <item nodeId="node-0x7cfb6b0">
+  <item nodeId="node-0x440940">
     <command xml:space="preserve">tak note</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -39,10 +39,10 @@ You can see Clamp, Spatula, Tongs and Spell Note here.
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x7c00fd0" />
+      <child nodeId="node-0x440b30" />
     </children>
   </item>
-  <item nodeId="node-0x7c00fd0">
+  <item nodeId="node-0x440b30">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">Taken.
 
@@ -51,10 +51,10 @@ You can see Clamp, Spatula, Tongs and Spell Note here.
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x7c23400" />
+      <child nodeId="node-0x440b80" />
     </children>
   </item>
-  <item nodeId="node-0x7c23400">
+  <item nodeId="node-0x440b80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -65,10 +65,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x13267f60" />
+      <child nodeId="node-0x440c10" />
     </children>
   </item>
-  <item nodeId="node-0x13267f60">
+  <item nodeId="node-0x440c10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -79,10 +79,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x133bcbf0" />
+      <child nodeId="node-0x440c60" />
     </children>
   </item>
-  <item nodeId="node-0x133bcbf0">
+  <item nodeId="node-0x440c60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -93,10 +93,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x7d8fe20" />
+      <child nodeId="node-0x440cd0" />
     </children>
   </item>
-  <item nodeId="node-0x7d8fe20">
+  <item nodeId="node-0x440cd0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no where to go.
 
@@ -105,10 +105,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x7c049a0" />
+      <child nodeId="node-0x440dc0" />
     </children>
   </item>
-  <item nodeId="node-0x7c049a0">
+  <item nodeId="node-0x440dc0">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -117,10 +117,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x1322f970" />
+      <child nodeId="node-0x440e10" />
     </children>
   </item>
-  <item nodeId="node-0x1322f970">
+  <item nodeId="node-0x440e10">
     <command xml:space="preserve">nm</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -129,10 +129,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x7526760" />
+      <child nodeId="node-0x440e60" />
     </children>
   </item>
-  <item nodeId="node-0x7526760">
+  <item nodeId="node-0x440e60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -142,10 +142,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x132cfa90" />
+      <child nodeId="node-0x440ed0" />
     </children>
   </item>
-  <item nodeId="node-0x132cfa90">
+  <item nodeId="node-0x440ed0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -155,7 +155,7 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
   </item>
-  <item nodeId="node-0x13336f90">
+  <item nodeId="node-0x440f40">
     <command xml:space="preserve">take notes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -164,10 +164,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x13331eb0" />
+      <child nodeId="node-0x441070" />
     </children>
   </item>
-  <item nodeId="node-0x13331eb0">
+  <item nodeId="node-0x441070">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">Taken.
 
@@ -176,10 +176,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x7c78de0" />
+      <child nodeId="node-0x440d60" />
     </children>
   </item>
-  <item nodeId="node-0x7c78de0">
+  <item nodeId="node-0x440d60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -190,10 +190,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x1337e7a0" />
+      <child nodeId="node-0x4410e0" />
     </children>
   </item>
-  <item nodeId="node-0x1337e7a0">
+  <item nodeId="node-0x4410e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -204,10 +204,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x7cfbd10" />
+      <child nodeId="node-0x441150" />
     </children>
   </item>
-  <item nodeId="node-0x7cfbd10">
+  <item nodeId="node-0x441150">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -218,10 +218,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x133f4980" />
+      <child nodeId="node-0x4411c0" />
     </children>
   </item>
-  <item nodeId="node-0x133f4980">
+  <item nodeId="node-0x4411c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -231,7 +231,7 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
   </item>
-  <item nodeId="node-0x184340">
+  <item nodeId="node-0x441230">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">That would make things to easy, try to have some fun :)
 &gt;</result>
@@ -239,7 +239,7 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0x4e9740">
+  <item nodeId="node-0x4412a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -250,10 +250,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1336d260" />
+      <child nodeId="node-0x441310" />
     </children>
   </item>
-  <item nodeId="node-0x1336d260">
+  <item nodeId="node-0x441310">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -264,10 +264,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x12e880" />
+      <child nodeId="node-0x440fb0" />
     </children>
   </item>
-  <item nodeId="node-0x12e880">
+  <item nodeId="node-0x440fb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -278,10 +278,10 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x7c39bd0" />
+      <child nodeId="node-0x441000" />
     </children>
   </item>
-  <item nodeId="node-0x7c39bd0">
+  <item nodeId="node-0x441000">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no where to go.
 
@@ -290,11 +290,11 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x133f4130" />
-      <child nodeId="node-0x7db9fc0" />
+      <child nodeId="node-0x4416c0" />
+      <child nodeId="node-0x441500" />
     </children>
   </item>
-  <item nodeId="node-0x7db9fc0">
+  <item nodeId="node-0x441500">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Hallway
@@ -305,10 +305,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x13321ed0" />
+      <child nodeId="node-0x441570" />
     </children>
   </item>
-  <item nodeId="node-0x13321ed0">
+  <item nodeId="node-0x441570">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Elevator
@@ -319,10 +319,10 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x7d1a830" />
+      <child nodeId="node-0x4415e0" />
     </children>
   </item>
-  <item nodeId="node-0x7d1a830">
+  <item nodeId="node-0x4415e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -331,10 +331,10 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1329e740" />
+      <child nodeId="node-0x441650" />
     </children>
   </item>
-  <item nodeId="node-0x1329e740">
+  <item nodeId="node-0x441650">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -343,7 +343,7 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="46">YES</temporary>
   </item>
-  <item nodeId="node-0x133f4130">
+  <item nodeId="node-0x4416c0">
     <command xml:space="preserve">say portasum openab</command>
     <result xml:space="preserve">The words were said correctly, but it seems that they also need the source material of the spell to channel magic through while .
 
@@ -352,7 +352,7 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
   </item>
-  <item nodeId="node-0x7cd7c60">
+  <item nodeId="node-0x441730">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">Taken.
 
@@ -361,11 +361,11 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>NO</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x1ec6a0" />
-      <child nodeId="node-0x133d2890" />
+      <child nodeId="node-0x441460" />
+      <child nodeId="node-0x4417a0" />
     </children>
   </item>
-  <item nodeId="node-0x133d2890">
+  <item nodeId="node-0x4417a0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">That would make things to easy, try to have some fun :)
 &gt;</result>
@@ -373,10 +373,10 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x2dbf30" />
+      <child nodeId="node-0x441810" />
     </children>
   </item>
-  <item nodeId="node-0x2dbf30">
+  <item nodeId="node-0x441810">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -387,10 +387,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x234bd0" />
+      <child nodeId="node-0x441880" />
     </children>
   </item>
-  <item nodeId="node-0x234bd0">
+  <item nodeId="node-0x441880">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Guard Office
@@ -400,10 +400,10 @@ Guard Office
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x7c70890" />
+      <child nodeId="node-0x4418f0" />
     </children>
   </item>
-  <item nodeId="node-0x7c70890">
+  <item nodeId="node-0x4418f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Offices
@@ -414,10 +414,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x13252ff0" />
+      <child nodeId="node-0x441960" />
     </children>
   </item>
-  <item nodeId="node-0x13252ff0">
+  <item nodeId="node-0x441960">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -428,10 +428,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x105440" />
+      <child nodeId="node-0x441380" />
     </children>
   </item>
-  <item nodeId="node-0x105440">
+  <item nodeId="node-0x441380">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -442,10 +442,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x133ad670" />
+      <child nodeId="node-0x4413f0" />
     </children>
   </item>
-  <item nodeId="node-0x133ad670">
+  <item nodeId="node-0x4413f0">
     <command xml:space="preserve">say portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -454,7 +454,7 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x1ec6a0">
+  <item nodeId="node-0x441460">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -465,10 +465,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>NO</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x7c463e0" />
+      <child nodeId="node-0x441c10" />
     </children>
   </item>
-  <item nodeId="node-0x7c463e0">
+  <item nodeId="node-0x441c10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -479,10 +479,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x133f3e80" />
+      <child nodeId="node-0x441c80" />
     </children>
   </item>
-  <item nodeId="node-0x133f3e80">
+  <item nodeId="node-0x441c80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -493,11 +493,11 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x13355190" />
-      <child nodeId="node-0x7c0dbe0" />
+      <child nodeId="node-0x441dd0" />
+      <child nodeId="node-0x441cf0" />
     </children>
   </item>
-  <item nodeId="node-0x7c0dbe0">
+  <item nodeId="node-0x441cf0">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -506,10 +506,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x7ddeff0" />
+      <child nodeId="node-0x441d60" />
     </children>
   </item>
-  <item nodeId="node-0x7ddeff0">
+  <item nodeId="node-0x441d60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 
@@ -520,7 +520,7 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="79">YES</temporary>
   </item>
-  <item nodeId="node-0x13355190">
+  <item nodeId="node-0x441dd0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no where to go.
 
@@ -529,11 +529,11 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x13382560" />
-      <child nodeId="node-0x7de9170" />
+      <child nodeId="node-0x442070" />
+      <child nodeId="node-0x441e40" />
     </children>
   </item>
-  <item nodeId="node-0x7de9170">
+  <item nodeId="node-0x441e40">
     <command xml:space="preserve">portasum obenab</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -542,10 +542,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x13235e50" />
+      <child nodeId="node-0x441eb0" />
     </children>
   </item>
-  <item nodeId="node-0x13235e50">
+  <item nodeId="node-0x441eb0">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -554,10 +554,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x13381a60" />
+      <child nodeId="node-0x441f20" />
     </children>
   </item>
-  <item nodeId="node-0x13381a60">
+  <item nodeId="node-0x441f20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -567,10 +567,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x133132a0" />
+      <child nodeId="node-0x441f90" />
     </children>
   </item>
-  <item nodeId="node-0x133132a0">
+  <item nodeId="node-0x441f90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -580,10 +580,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x13061620" />
+      <child nodeId="node-0x442000" />
     </children>
   </item>
-  <item nodeId="node-0x13061620">
+  <item nodeId="node-0x442000">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -593,7 +593,7 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="56">YES</temporary>
   </item>
-  <item nodeId="node-0x13382560">
+  <item nodeId="node-0x442070">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -602,10 +602,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>NO</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x13244700" />
+      <child nodeId="node-0x4420e0" />
     </children>
   </item>
-  <item nodeId="node-0x13244700">
+  <item nodeId="node-0x4420e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 Dark Arts Inc
@@ -623,10 +623,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x1337dac0" />
+      <child nodeId="node-0x442150" />
     </children>
   </item>
-  <item nodeId="node-0x1337dac0">
+  <item nodeId="node-0x442150">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Closet
 [Previous turn undone.]
@@ -636,10 +636,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x13319920" />
+      <child nodeId="node-0x4421c0" />
     </children>
   </item>
-  <item nodeId="node-0x13319920">
+  <item nodeId="node-0x4421c0">
     <command xml:space="preserve">x portal</command>
     <played>YES</played>
     <changed>YES</changed>

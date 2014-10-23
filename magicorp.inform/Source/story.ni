@@ -167,7 +167,8 @@ Carry out casting portasum openab:
 	now Void Portal is not scenery.[north of Closet and south of Dark Arts Inc.]
 	
 Instead of doing anything to Void Portal:
-	If VoidPortal is 0You can't do that.";
+	If VoidPortal is 0:
+		say "You can't do that.";
 	Otherwise:
 		move player to Dark Arts Inc;
 
@@ -175,8 +176,7 @@ Instead of doing anything to Void Portal:
 Instead of going north from Closet when VoidPortal is 0:
 	say "There is no where to go."
 
-Spell Note is a thing. Spell Note is in Conference Room. the description is "A scroll with a low level portal spell that: 
-		say "even you could cast, it says 'portasum openab."
+Spell Note is a thing. Spell Note is in Conference Room. the description is "A scroll with a low level portal spell that even you could cast, it says 'portasum openab."
 	
 Void Portal is a door. Void Portal is north of Closet and south of Dark Arts Inc. Void Portal is scenery.[Void Portal starts game removed from play.] the description is "A swirling purple portal. It could lead anywhere, but you know you that going through it is the only way to discover the murderer."
 
