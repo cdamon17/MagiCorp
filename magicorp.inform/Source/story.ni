@@ -25,7 +25,7 @@ When play begins: say "This is an exiting day! You have been invited by the boar
 The description of the player is "Your wearing your nicest suit for the conference. Magician robes did not seem necessary today."
 
 
-Conference Room is a room. "The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders?"
+Conference Room is a room. "The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north."
 
 bodies is a thing. bodies is in Conference Room. bodies is scenery. the description is "The board members seem to have been... disposed of, in different and unnatural ways, some too gruesome to describe. This can only be the work of a corporate magician to undermine the company. The sight is repulsive, but you are determined to find the one who did this."
 
@@ -33,17 +33,19 @@ Offices is a room. Offices is north of Conference Room. "This room is the office
 
 Hallway is a room. Hallway is west of Offices and east of Elevator. "This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north."
 
-Elevator is a room. Elevator is east of Hallway. "The elevator going to other floors, but its locked, so this seems to be a dead end."
+Elevator is a room. Elevator is east of Hallway. "The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east."
 
-Closet is a room. Closet is north of Hallway. "This is just a dark closet, not much is in here"
+Closet is a room. Closet is north of Hallway. "This is just a dark closet, not much is in here. The Hallway is to the south."
 
 Dark Arts Inc is a room. Dark Arts Inc is north of Void Portal. "Dark Arts Inc is Magicorp's biggest rival, of course they would send some one to sabotage you."
 
-Guard Office is a room. Guard Office is east of Offices. ""
+Guard Office is a room. Guard Office is east of Offices. "This is the office of the security guard. Its sparse with only an empty desk and the Guard. The Offices is to the west."
 
-Meeting Room is a room. Meeting Room is east of Conference Room. ""
+desk is a supporter. desk is in Guard Office. desk is undescribed. the description is "A regular wooden desk with nothing on it. Its rather boring."
 
-Security Room is a room. Security Room is east of Security Door. ""
+Meeting Room is a room. Meeting Room is east of Conference Room. "The Meeting room is a secondary room to meet in if the Conference room is being used. The Conference room is to the west, and Security room to the east."
+
+Security Room is a room. Security Room is east of Security Door. "This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west."
 
 [spin dial locked door from Laboratory Escape by Cole Damon]
 Security Door is a door. Security Door is east of Meeting Room. Security Door is fixed in place, locked and lockable, closed and openable. the description is "A locked door protecting the Security room. It seems to be locked with a charmed spin dial so magic can not unlock it. The only way to get inside is to SPIN TO a 4 digit code all at once. The Guard in the Guard Office might know what it is."
@@ -94,9 +96,9 @@ move pair of Dragon Gloves to player.]
 
 [Code for a combination puzzle from Tonic by Brianna Hartner]
 [The combining action]
-Clamp is a thing. Clamp is in Conference Room.
-Spatula is a thing. Spatula is in Conference Room.
-Tongs is a thing. Tongs is in Conference Room.
+Clamp is a thing. Clamp is in Conference Room. the description is "The base of the Imagecaster, it needs to be combined with the other parts. You will need to find the 2 other parts and combine them."
+Spatula is a thing. Spatula is in Conference Room. the description is "The projector of the Imagecaster. Just combine it with the 2 other parts."
+Tongs is a thing. Tongs is in Conference Room. the description is "The power crystal of the Imagecaster. Combine it with the other 2 parts to make the Imagecaster."
 
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
@@ -137,15 +139,17 @@ Parts List				Results
 {Clamp, Spatula}				Clamp Spatula Thingy
 {Clamp, Tongs}				Clamp Tong Thingy
 {Spatula, Tongs}				Spatula Tong Thingy
-{Clamp Spatula Thingy, Tongs}				Arm Thingy
-{Clamp Tong Thingy, Spatula}				Arm Thingy
-{Spatula Tong Thingy, Clamp}				Arm Thingy
-{Clamp, Spatula, Tongs}				Arm Thingy
+{Clamp Spatula Thingy, Tongs}				Imagecaster
+{Clamp Tong Thingy, Spatula}				Imagecaster
+{Spatula Tong Thingy, Clamp}				Imagecaster
+{Clamp, Spatula, Tongs}				Imagecaster
 
 The Clamp Spatula Thingy is an object. The description of the Clamp Spatula Thingy is "Clamp and Spatula… Need anything else?"
 The Clamp Tong Thingy is an object. The description of the Clamp Tong Thingy is "Clamp and Pair of Tongs… Need anything else?"
 The Spatula Tong Thingy is an object. The description of the Spatula Tong Thingy is "Spatula and Pair of Tongs… Need anything else?"
-The Arm Thingy is an object. The description is ""
+Imagecaster is a device. The description is "An Imagecaster, used to record images, turn it on to find what happened. [if Imagecaster is switched on] You see the murder run into the Conference room, and after finishing what he did in there, he ran through the offices into the hallway and went into the closet. He must have escaped through there!"
+
+Imagecaster is in the off position.
 
 
 
@@ -166,11 +170,14 @@ Instead of casting portasum openab:
 Carry out casting portasum openab:
 	now Void Portal is not scenery.[north of Closet and south of Dark Arts Inc.]
 	
-Instead of doing anything to Void Portal:
-	If VoidPortal is 0:
-		say "You can't do that.";
-	Otherwise:
-		move player to Dark Arts Inc;
+[If player examines Void Portal:
+	say "A swirling purple portal. It could lead anywhere, but you know you that going through it is the only way to discover the murderer.";
+Otherwise:
+	If player goes north from Void Portal:
+		If VoidPortal is 0:
+			say "You can't do that.";
+		Otherwise:
+			move player to Dark Arts Inc;]
 
 	
 Instead of going north from Closet when VoidPortal is 0:

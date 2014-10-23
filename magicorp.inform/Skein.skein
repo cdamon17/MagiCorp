@@ -21,7 +21,7 @@ You can see Clamp, Spatula, Tongs and Spell Note here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="89">NO</temporary>
+    <temporary score="8">NO</temporary>
     <children>
       <child nodeId="node-0x441730" />
       <child nodeId="node-0x4412a0" />
@@ -359,7 +359,7 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="89">YES</temporary>
+    <temporary score="8">YES</temporary>
     <children>
       <child nodeId="node-0x441460" />
       <child nodeId="node-0x4417a0" />
@@ -463,7 +463,7 @@ This room is the offices for the basic workers, filled with cubical like work st
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="89">YES</temporary>
+    <temporary score="8">YES</temporary>
     <children>
       <child nodeId="node-0x441c10" />
     </children>
@@ -477,7 +477,7 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="89">YES</temporary>
+    <temporary score="8">YES</temporary>
     <children>
       <child nodeId="node-0x441c80" />
     </children>
@@ -491,7 +491,7 @@ This is just a dark closet, not much is in here
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="89">YES</temporary>
+    <temporary score="8">YES</temporary>
     <children>
       <child nodeId="node-0x441dd0" />
       <child nodeId="node-0x441cf0" />
@@ -527,7 +527,7 @@ This is just a dark closet, not much is in here
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="89">YES</temporary>
+    <temporary score="8">YES</temporary>
     <children>
       <child nodeId="node-0x442070" />
       <child nodeId="node-0x441e40" />
@@ -600,10 +600,28 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="89">YES</temporary>
+    <temporary score="8">YES</temporary>
     <children>
       <child nodeId="node-0x4420e0" />
+      <child nodeId="node-0x290750" />
     </children>
+  </item>
+  <item nodeId="node-0x290750">
+    <command xml:space="preserve">x portal</command>
+    <result xml:space="preserve">Dark Arts Inc
+Dark Arts Inc is Magicorp&apos;s biggest rival, of course they would send some one to sabotage you.
+
+
+
+    *** Oh, no. This is Dark Arts Inc, Magicorp&apos;s biggest rival in techno magic innovation! This can only mean this was an act of sabotage! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
   </item>
   <item nodeId="node-0x4420e0">
     <command xml:space="preserve">n</command>
