@@ -1,4 +1,9 @@
-"Magicorp" by Cole Damon
+"Magicorp" by Cole Damon 
+The story creation year is 2014. 
+The story headline is "A murder in Magicorp". 
+The story genre is "Mystery". 
+[Release along with cover art ("")]
+Release along with an interpreter.
 
 [Code to display a player's location in the game and possible exits in the header.
 code from Tonic by Brianna Hartner]
@@ -31,15 +36,15 @@ bodies is a thing. bodies is in Conference Room. bodies is scenery. the descript
 
 Offices is a room. Offices is north of Conference Room. "This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard's Office is to the east, and the Hallway is to the west."
 
-work stations is a container. work stations is in Offices. drawers is undescribed. the description is "a place where people work, they are closed right now but could be opened if your looking for something."
+work stations is a container. work stations is closed and openable. work stations is in Offices. drawers is undescribed. the description is "A place where people work, they are closed right now but could be opened if your looking for something."
 
-Hallway is a room. Hallway is west of Offices and east of Elevator. "This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north."
+Hallway is a room. Hallway is west of Offices and east of Elevator. "This is just the regular hallway in between most elevators and rooms. The Elevator is to the west, Offices to the east, and a closet to the north."
 
-Elevator is a room. Elevator is east of Hallway. "The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east."
+Elevator is a room. Elevator is west of Hallway. "The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east."
 
 Closet is a room. Closet is north of Hallway. "This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south."
 
-mop bucket is a container. mop bucket is in Closet. mob bucket is undescribed. the description is "a bucket with the lid closed, it looks like the kind the janitor uses."
+mop bucket is a container. mop bucket is closed and openable. mop bucket is in Closet. mob bucket is undescribed. the description is "a bucket with the lid closed, it looks like the kind the janitor uses."
 
 Dark Arts Inc is a room. Dark Arts Inc is north of Void Portal. "Dark Arts Inc is Magicorp's biggest rival, of course they would send some one to sabotage you."
 
@@ -49,9 +54,9 @@ desk is a supporter. desk is in Guard's Office. desk is undescribed. the descrip
 
 Meeting Room is a room. Meeting Room is east of Conference Room. "The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east."
 
-locker is a container. locker is in Meeting Room. locker is undescribed. the description is "A locker used to store items in. Some times people forget things in there, so make sure you don't"
+locker is a container. locker is closed and openable. locker is in Meeting Room. locker is undescribed. the description is "A locker used to store items in. Some times people forget things in there, so make sure you don't"
 
-Security Room is a room. Security Room is east of Security Door. "This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west."
+Security Room is a room. Security Room is east of Security Door. "This room holds security for the entire building. The Imagecaster would have seen what happened, but it seems to be missing! The dust around where it should be suggests that it was broken apart though, the murderer must have done this to cover his tracks! You will need to find the missing peaces and combine them back into an Imagecaster so you can see how the murderer escaped. The Meeting room is to the west."
 
 [spin dial locked door from Laboratory Escape by Cole Damon]
 Security Door is a door. Security Door is east of Meeting Room. Security Door is fixed in place, locked and lockable, closed and openable. the description is "A locked door protecting the Security room. It seems to be locked with a charmed spin dial so magic can not unlock it. The only way to get inside is to SPIN TO a 4 digit code all at once. The guard in the Guard's Office might know what it is."
@@ -84,27 +89,11 @@ Instead of spinning the closed Security Door to 2657:
 
 
 
-[sample of NPC code from Loose Dragon by EJ Talevera
-In Training room is a male person called Alfred. The description of Alfred is "Your personal butler who has been with you for 15 years. He can assist you with anything."
-
-Instead of asking the Alfred about "Draco":
-say "No sir, I haven't seen Draco around here recently. He's probably wondering around. I think I closed all the windows. Better find him quick."
-
-Instead of asking the Alfred about "Dragon Gloves":
-say "Yes I might know where those gloves are, but I think I need a little cash to jog my memory."
-
-Instead of giving Money to Alfred:
-say "Oh yes the gloves are in my back pocket. Here you go.";
-remove money from play;
-move pair of Dragon Gloves to player.]
-
-
-
 [Code for a combination puzzle from Tonic by Brianna Hartner]
 [The combining action]
 Base is a thing. Base is in locker. [Base is undescribed until player walks in Security Room for the first time.] the description is "The base of the Imagecaster, it needs to be combined with the other parts. You will need to find the 2 other parts and combine them."
 Projector is a thing. Projector is in Elevator. the description is "The projector of the Imagecaster. Just combine it with the 2 other parts."
-Crystal is a thing. Crystal is in workstations. the description is "The power crystal of the Imagecaster. Combine it with the other 2 parts to make the Imagecaster."
+Crystal is a thing. Crystal is in work stations. the description is "The power crystal of the Imagecaster. Combine it with the other 2 parts to make the Imagecaster."
 
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
@@ -153,7 +142,7 @@ Parts List				Results
 The Empty machine is an object. The description of the Empty machine is "That is an Imagecaster, but it has nothing in it's crystal core to power it."
 The Powered machine is an object. The description of the Powered machine is "Its most of the Imagecaster, but there is no way to project the images."
 The Imager is an object. The description of the Imager is "It can cast images, but it has no data from the Base to show."
-Imagecaster is a device. The description is "An Imagecaster, used to record images, turn it on to find what happened. [if Imagecaster is switched on] You see the murder run into the Conference room, and after finishing what he did in there, he ran through the offices into the hallway and went into the closet. He must have escaped through there!"
+Imagecaster is a device. The description is "[if Imagecaster is switched on] You see the murder run into the Conference room, and after finishing what he did in there, he ran through the offices into the hallway and went into the closet. He must have escaped through there!"
 
 Imagecaster is in the off position.
 
@@ -194,12 +183,8 @@ Spell Note is a thing. Spell Note is in mop bucket. the description is "A scroll
 Void Portal is a door. Void Portal is north of Closet and south of Dark Arts Inc. Void Portal is scenery.[Void Portal starts game removed from play.] the description is "A swirling purple portal. It could lead anywhere, but you know you that going through it is the only way to discover the murderer."
 
 
-	
 
-
-
-[code for simple npc conversations, borrowed from MiltonManor by Philip Tanton:
-After asking ____ about "": say "".  [this is the example]]
+[code for simple npc conversations, borrowed from MiltonManor by Philip Tanton]
 understand "talk to [something]" as talking. Talking is an action applying to one thing.
 Instead of talking something: say "Try asking about something instead."
 
@@ -213,9 +198,25 @@ After asking witness about "Magicorp": say "Our company? We are one of the bigge
 
 guard is a man. guard is in Guard's Office. the description is "He is a stern looking man in the blue guard uniform and sunglasses. He is in charge of the security on this level. He would know the spin dial code to the Security room, you could ask him about it."
 
-After asking guard about "code": say "Hi, I remember you, your that new rising worker, but why do you need to know the code for the security door, aren't you suppose to be in a meeting with the board members? Wait, what? Dead? All of them?".
+After asking guard about "code": say "Hi, I remember you, your that new rising worker, but why do you need to know the code for the security door, aren't you suppose to be in a meeting with the board members? Wait, what? Dead? All of them? Ofcouse I'll help you, we need to find this murder fast! The code is this year, so just spin the dial to 2657.".
 
 
+[other npc talking code for more understanding from Clementine Way by Brent Uramoto]
+[nstead of asking Jennifer about "[dinner]":
+	If Story Line is 1:
+		Say "'Hmm... Sure.' Says Jennifer. 'Oh! Remember that old recipie that we used to make as teens? What was it called? Umm...  Margret's Casserole!' [paragraph break] 'Yes,' you say. 'I think I still have that recipe in my recipe drawer.' [paragraph break] 'Ok, cool' responds Jennifer. I still have a lot of work to do, so could you call me back when you have it ready?' [paragraph break] 'Sure,' you say. 'I'll call you later.'";
+		Now Story Line is 2;
+	Otherwise:
+		Say "I already asked Jennifer about dinner, and she said yes. No need to ask her again.".
+		
+Understand "a dinner", "meal", "dinner", and "a meal" as "[dinner]".
+		
+Understand "plans tonight", "this evening", "later on", "plans", and "activites" as "[tonight]".
+[Code from Inform Handbook]
+
+Instead of asking Jennifer about "[tonight]":
+	If Story Line is 1:
+		Say "Um, I dont think I have any plans for tonight. Why? Do you want to do something?"]
 
 
 
@@ -271,8 +272,5 @@ Every turn rule:
 	If player is in Dark Arts Inc:
 		end the story finally saying "Oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! This can only mean this was an act of sabotage!"
 
-[puzzles to use:
-	locked dial door
-	combination of parts
-	say spell to unlock door   ask riely about magic words
-	npc conversations]
+[short route to finish game:
+]
