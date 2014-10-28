@@ -1,5 +1,5 @@
 Debugging log of Inform 7
-Inform called as: /Applications/Inform.app/Contents/Resources/Compilers/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/cdamon17/Library/Inform -project /Users/cdamon17/Desktop/10th grade work/comp sci/inform documents/magicorp/MagiCorp/magicorp.inform -format=ulx
+Inform called as: /Applications/Inform.app/Contents/Resources/Compilers/ni -internal /Applications/Inform.app/Contents/Resources/Internal -external /Users/cdamon17/Library/Inform -project /Users/cdamon17/Desktop/10th grade work/comp sci/inform documents/magicorp/MagiCorp/magicorp.inform -format=ulx -release
 Found language bundle 'English' (from .materials)
 Found language bundle 'French' (from .materials)
 Found language bundle 'German' (from .materials)

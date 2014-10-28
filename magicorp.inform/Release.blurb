@@ -6,6 +6,7 @@ status "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/CblorbMo
 ! Identification
 
 project folder "/Users/cdamon17/Desktop/10th grade work/comp sci/inform documents/magicorp/MagiCorp/magicorp.inform"
+release to "/Users/cdamon17/Desktop/10th grade work/comp sci/inform documents/magicorp/MagiCorp/magicorp.materials/Release"
 
 ! Blorb instructions
 

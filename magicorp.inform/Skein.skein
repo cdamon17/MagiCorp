@@ -11,7 +11,7 @@ This is an exiting day! You have been invited by the board to sit in on a confer
 
 Magicorp
 A murder in Magicorp by Cole Damon The story creation year is 2014
-Release 1 / Serial number 141026 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141027 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Conference Room
 The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
@@ -20,7 +20,7 @@ You can see witness here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="424">NO</temporary>
     <children>
       <child nodeId="node-0x3f5930" />
