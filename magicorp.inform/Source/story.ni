@@ -273,12 +273,18 @@ Table of Guard's Chatter
 topic	reply	summary	turn stamp
 ]
 
-Every turn rule:
-	If player is in Dark Arts Inc:
+Every turn rule when the location of the player is Dark Arts Inc:
+	If player is carrying the Spell Note:
 		end the story finally saying "The portal sucks you in, and you find your self in a lobby, filled with many people in both dark suits and black magician robes. Oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! This can only mean this was an act of sabotage!";
-	[Otherwise:
-		If player is in Dark Arts Inc and player does not have Spell Note in inventory:
-			end the story finally saying "The portal sucks you in but on the other side, oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! You are met with magicians pointing wands at you, and one with a black hood on. Its a trap! The murderer knew you were following him and was expecting you to come through. The portal has closed behind you and theres no escape. It seems all is lost for Magicorp now :("]
+	Otherwise: [will trigger if player is in Dark Arts Inc not carrying Spell Note]
+		end the story finally saying "The portal sucks you in but on the other side, oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! You are met with magicians pointing wands at you, and one with a black hood on. Its a trap! The murderer knew you were following him and was expecting you to come through. The portal has closed behind you and theres no escape. It seems all is lost for Magicorp now :("
+			
+
+[Every turn when the location of the player is Dark Arts Inc:
+          If the player is carrying the Spell Note:
+                 end the story finally saying "The portal sucks you in, and you find your self in a lobby, filled with many people in both dark suits and black magician robes. Oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! This can only mean this was an act of sabotage!";
+        Otherwise: [will trigger if player is in Dark Arts Inc not carrying Spell Note.]
+                 end the story finally saying "The portal sucks you in but on the other side, oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! You are met with magicians pointing wands at you, and one with a black hood on. Its a trap! The murderer knew you were following him and was expecting you to come through. The portal has closed behind you and theres no escape. It seems all is lost for Magicorp now. :("]
 
 [short route to finish game:
 (steps for non-story completion):
