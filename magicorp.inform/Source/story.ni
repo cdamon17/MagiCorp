@@ -36,7 +36,7 @@ bodies is a thing. bodies is in Conference Room. bodies is scenery. the descript
 
 Offices is a room. Offices is north of Conference Room. "This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard's Office is to the east, and the Hallway is to the west."
 
-work stations is a container. work stations is closed and openable. work stations is in Offices. drawers is undescribed. the description is "A place where people work, they are closed right now but could be opened if your looking for something."
+work stations is a container. work stations is closed and openable. work stations is fixed in place. work stations is in Offices. drawers is undescribed. the description is "A place where people work, they are closed right now but could be opened if your looking for something."
 
 Hallway is a room. Hallway is west of Offices and east of Elevator. "This is just the regular hallway in between most elevators and rooms. The Elevator is to the west, Offices to the east, and a closet to the north."
 
@@ -54,7 +54,7 @@ desk is a supporter. desk is in Guard's Office. desk is undescribed. the descrip
 
 Meeting Room is a room. Meeting Room is east of Conference Room. "The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east."
 
-locker is a container. locker is closed and openable. locker is in Meeting Room. locker is undescribed. the description is "A locker used to store items in. Some times people forget things in there, so make sure you don't"
+locker is a container. locker is closed and openable. locker is fixed in place. locker is in Meeting Room. locker is undescribed. the description is "A locker used to store items in. Some times people forget things in there, so make sure you don't"
 
 Security Room is a room. Security Room is east of Security Door. "This room holds security for the entire building. The Imagecaster would have seen what happened, but it seems to be missing! The dust around where it should be suggests that it was broken apart though, the murderer must have done this to cover his tracks! You will need to find the missing peaces and combine them back into an Imagecaster so you can see how the murderer escaped. The Meeting room is to the west."
 
@@ -204,6 +204,8 @@ After asking guard about "code": say "Hi, I remember you, your that new rising w
 Understand "security door", and "door" as "[code]".
 
 
+
+
 [other npc talking code for more understanding from Clementine Way by Brent Uramoto]
 [nstead of asking Jennifer about "[dinner]":
 	If Story Line is 1:
@@ -274,9 +276,9 @@ topic	reply	summary	turn stamp
 Every turn rule:
 	If player is in Dark Arts Inc:
 		end the story finally saying "The portal sucks you in, and you find your self in a lobby, filled with many people in both dark suits and black magician robes. Oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! This can only mean this was an act of sabotage!";
-	Otherwise:
+	[Otherwise:
 		If player is in Dark Arts Inc and player does not have Spell Note in inventory:
-			end the story finally saying "The portal sucks you in but on the other side, oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! You are met with magicians pointing wands at you, and one with a black hood on. Its a trap! The murderer knew you were following him and was expecting you to come through. The portal has closed behind you and theres no escape. It seems all is lost for Magicorp now :("
+			end the story finally saying "The portal sucks you in but on the other side, oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! You are met with magicians pointing wands at you, and one with a black hood on. Its a trap! The murderer knew you were following him and was expecting you to come through. The portal has closed behind you and theres no escape. It seems all is lost for Magicorp now :("]
 
 [short route to finish game:
 (steps for non-story completion):
