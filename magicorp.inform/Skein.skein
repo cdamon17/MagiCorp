@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x511b20" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x3f58e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x511b20" />
-  <item nodeId="node-0x511b20">
+  <activeNode nodeId="node-0x3f58e0" />
+  <item nodeId="node-0x3f58e0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -23,15 +23,23 @@ You can see witness here.
     <changed>NO</changed>
     <temporary score="424">NO</temporary>
     <children>
-      <child nodeId="node-0x817af30" />
-      <child nodeId="node-0x5129b0" />
-      <child nodeId="node-0x512520" />
-      <child nodeId="node-0x5124b0" />
-      <child nodeId="node-0x5121c0" />
-      <child nodeId="node-0x511bc0" />
+      <child nodeId="node-0x3f5930" />
+      <child nodeId="node-0x6fcb430" />
+      <child nodeId="node-0x6fc9910" />
+      <child nodeId="node-0x6fc7740" />
+      <child nodeId="node-0x6fcbeb0" />
+      <child nodeId="node-0x6fc76f0" />
     </children>
   </item>
-  <item nodeId="node-0x511bc0">
+  <item nodeId="node-0x6fc76f0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">That would make things to easy, try to have some fun :)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fcbeb0">
     <command xml:space="preserve">tak note</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -40,10 +48,10 @@ You can see witness here.
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x511db0" />
+      <child nodeId="node-0x6fcbf20" />
     </children>
   </item>
-  <item nodeId="node-0x511db0">
+  <item nodeId="node-0x6fcbf20">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">Taken.
 
@@ -52,10 +60,10 @@ You can see witness here.
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x511e00" />
+      <child nodeId="node-0x6fcbf90" />
     </children>
   </item>
-  <item nodeId="node-0x511e00">
+  <item nodeId="node-0x6fcbf90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -66,10 +74,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x511e90" />
+      <child nodeId="node-0x6fcc000" />
     </children>
   </item>
-  <item nodeId="node-0x511e90">
+  <item nodeId="node-0x6fcc000">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -80,10 +88,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x511ee0" />
+      <child nodeId="node-0x6fcc070" />
     </children>
   </item>
-  <item nodeId="node-0x511ee0">
+  <item nodeId="node-0x6fcc070">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -94,10 +102,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x511f50" />
+      <child nodeId="node-0x6fcc0e0" />
     </children>
   </item>
-  <item nodeId="node-0x511f50">
+  <item nodeId="node-0x6fcc0e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no where to go.
 
@@ -106,10 +114,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x512040" />
+      <child nodeId="node-0x6fcc150" />
     </children>
   </item>
-  <item nodeId="node-0x512040">
+  <item nodeId="node-0x6fcc150">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -118,10 +126,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x512090" />
+      <child nodeId="node-0x6fcc1c0" />
     </children>
   </item>
-  <item nodeId="node-0x512090">
+  <item nodeId="node-0x6fcc1c0">
     <command xml:space="preserve">nm</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -130,10 +138,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x5120e0" />
+      <child nodeId="node-0x6fcc230" />
     </children>
   </item>
-  <item nodeId="node-0x5120e0">
+  <item nodeId="node-0x6fcc230">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -143,10 +151,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x512150" />
+      <child nodeId="node-0x6fcc2a0" />
     </children>
   </item>
-  <item nodeId="node-0x512150">
+  <item nodeId="node-0x6fcc2a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -156,45 +164,1052 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
   </item>
-  <item nodeId="node-0x5121c0">
-    <command xml:space="preserve">take notes</command>
+  <item nodeId="node-0x6fc7740">
+    <command xml:space="preserve">x witness</command>
+    <result xml:space="preserve">A shivering office worker who&apos;s suit is splattered with the blood of the deceased. You could ask him about the murders to find out what happened
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7790" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7790">
+    <command xml:space="preserve">ask about the murders</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
     <children>
-      <child nodeId="node-0x5122f0" />
+      <child nodeId="node-0x6fc77e0" />
     </children>
   </item>
-  <item nodeId="node-0x5122f0">
+  <item nodeId="node-0x6fc77e0">
+    <command xml:space="preserve">ask about murderers</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7830" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7830">
+    <command xml:space="preserve">ask about what happened</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7960" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7960">
+    <command xml:space="preserve">ask about murders</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc79b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc79b0">
+    <command xml:space="preserve">ask witness about murders</command>
+    <result xml:space="preserve">&quot;I was behind a board member as it happened, but I saw that a figure clad in black rushed in and started casting spells of black magic to kill every one. Oh I can&apos;t even try to describe how they died. I did not see who it was, but he ran off north to the Offices, the Security Room to the east might have video of where he went though.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7a00">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Conference Room
+The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
+
+You can see witness here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7a50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Meeting Room
+The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7aa0">
+    <command xml:space="preserve">x locker</command>
+    <result xml:space="preserve">A locker used to store items in. Some times people forget things in there, so make sure you don&apos;t
+
+In locker is Base.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7b10">
+    <command xml:space="preserve">take base</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7b80">
+    <command xml:space="preserve">x base</command>
+    <result xml:space="preserve">The base of the Imagecaster, it needs to be combined with the other parts. You will need to find the 2 other parts and combine them.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7bf0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Meeting Room
+The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc78a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc78a0">
+    <command xml:space="preserve">x security door</command>
+    <result xml:space="preserve">A locked door protecting the Security room. It seems to be locked with a charmed spin dial so magic can not unlock it. The only way to get inside is to SPIN TO a 4 digit code all at once. The guard in the Guard&apos;s Office might know what it is.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc78f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc78f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Meeting Room
+The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7de0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Security Door)
+The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial at once. You must SPIN THE DIAL TO the correct 4 digit code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7e50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Conference Room
+The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
+
+You can see witness here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7ec0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Offices
+This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard&apos;s Office is to the east, and the Hallway is to the west.
+
+You can see work stations (in which is Crystal) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7f30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7f30">
+    <command xml:space="preserve">x work stations</command>
+    <result xml:space="preserve">In work stations is Crystal.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7fa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Guard&apos;s Office
+This is the office of the security guard. Its sparse with only an empty desk and the guard. The Offices is to the west.
+
+You can see guard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8010" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8010">
+    <command xml:space="preserve">ask gaurd about code</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8080" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8080">
+    <command xml:space="preserve">ask guard about code</command>
+    <result xml:space="preserve">Hi, I remember you, your that new rising worker, but why do you need to know the code for the security door, aren&apos;t you suppose to be in a meeting with the board members? Wait, what? Dead? All of them?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc80f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc80f0">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8160" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8160">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc81d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc81d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8240" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8240">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7c60">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Guard&apos;s Office
+This is the office of the security guard. Its sparse with only an empty desk and the guard. The Offices is to the west.
+
+You can see guard here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7cd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc7d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc7d40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Offices
+This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard&apos;s Office is to the east, and the Hallway is to the west.
+
+You can see work stations (in which is Crystal) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc84f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc84f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Conference Room
+The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
+
+You can see witness here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8560" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8560">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc85d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc85d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Meeting Room
+The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8640" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8640">
+    <command xml:space="preserve">spin dial to 2657</command>
+    <result xml:space="preserve">The door unlocks and glides open
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc86b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc86b0">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">That was a rhetorical question.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8720" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8720">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Conference Room
+The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
+
+You can see witness here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8790" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8790">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Meeting Room
+The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8800" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8800">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Security Door)
+
+Security Room
+This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8870" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8870">
+    <command xml:space="preserve">x imagecaster\</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc88e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc88e0">
+    <command xml:space="preserve">x imagecaster</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8950" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8950">
+    <command xml:space="preserve">x Imagecaster</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc89c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc89c0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Security Room
+This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8a30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Meeting Room
+The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8aa0">
+    <command xml:space="preserve">x locker</command>
+    <result xml:space="preserve">A locker used to store items in. Some times people forget things in there, so make sure you don&apos;t
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8b10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8b10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Security Room
+This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8b80">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Meeting Room
+The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
+
+You can see Security Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8bf0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Conference Room
+The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
+
+You can see witness here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc82b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc82b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Offices
+This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard&apos;s Office is to the east, and the Hallway is to the west.
+
+You can see work stations (in which is Crystal) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8320" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8320">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8390" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8390">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Closet
+This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south.
+
+You can see mop bucket (in which is Spell Note) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8400" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8400">
+    <command xml:space="preserve">x spell note</command>
+    <result xml:space="preserve">A scroll with a low level portal spell that even you could cast, it says &quot;portasum openab.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8470" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8470">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
     <children>
-      <child nodeId="node-0x511fe0" />
+      <child nodeId="node-0x6fc8c60" />
     </children>
   </item>
-  <item nodeId="node-0x511fe0">
+  <item nodeId="node-0x6fc8c60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">There is no where to go.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8cd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8d40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+
+You can see Projector here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8db0">
+    <command xml:space="preserve">x projector</command>
+    <result xml:space="preserve">The projector of the Imagecaster. Just combine it with the 2 other parts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8e20">
+    <command xml:space="preserve">take projector</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8e90">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Projector
+  Spell Note
+  Base
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8f00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8f00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8f70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8fe0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9050" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9050">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc90c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc90c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-Offices
-This room is the offices for the basic workers, filled with cubical like work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard Office is to the east, and the Hallway is to the west.
+Closet
+This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south.
+
+You can see mop bucket (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9130" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9130">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc91a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc91a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9210" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9210">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9280" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9280">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc92f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc92f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9360" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9360">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc93d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc93d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9440" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9440">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc94b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc94b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9520" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9520">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9590" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9590">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <temporary score="208">YES</temporary>
     <children>
-      <child nodeId="node-0x512360" />
+      <child nodeId="node-0x6fc9600" />
     </children>
   </item>
-  <item nodeId="node-0x512360">
+  <item nodeId="node-0x6fc9600">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9670" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9670">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Closet
+This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south.
+
+You can see mop bucket (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc96e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc96e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc9750" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc9750">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="208">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc97c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc97c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -203,44 +1218,35 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <temporary score="208">YES</temporary>
     <children>
-      <child nodeId="node-0x5123d0" />
+      <child nodeId="node-0x6fc9830" />
     </children>
   </item>
-  <item nodeId="node-0x5123d0">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0x6fc9830">
+    <command xml:space="preserve">w</command>
     <result xml:space="preserve">
-Closet
-This is just a dark closet, not much is in here
+Elevator
+The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <temporary score="208">YES</temporary>
     <children>
-      <child nodeId="node-0x512440" />
+      <child nodeId="node-0x6fc98a0" />
     </children>
   </item>
-  <item nodeId="node-0x512440">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">(first opening Void Portal)
-In a clap of thunder and a bright flash, a glowing portal appears to the north.
+  <item nodeId="node-0x6fc98a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="29">YES</temporary>
+    <temporary score="207">YES</temporary>
   </item>
-  <item nodeId="node-0x5124b0">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">That would make things to easy, try to have some fun :)
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
-  </item>
-  <item nodeId="node-0x512520">
+  <item nodeId="node-0x6fc9910">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -253,11 +1259,11 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x512590" />
-      <child nodeId="node-0x80703e0" />
+      <child nodeId="node-0x6fcb0b0" />
+      <child nodeId="node-0x6fc9980" />
     </children>
   </item>
-  <item nodeId="node-0x80703e0">
+  <item nodeId="node-0x6fc9980">
     <command xml:space="preserve">x crystal</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -266,10 +1272,10 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x81800c0" />
+      <child nodeId="node-0x6fc99f0" />
     </children>
   </item>
-  <item nodeId="node-0x81800c0">
+  <item nodeId="node-0x6fc99f0">
     <command xml:space="preserve">take crystal</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -278,10 +1284,10 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x1117b0" />
+      <child nodeId="node-0x6fc9a60" />
     </children>
   </item>
-  <item nodeId="node-0x1117b0">
+  <item nodeId="node-0x6fc9a60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Conference Room
@@ -294,10 +1300,10 @@ You can see witness here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8036f70" />
+      <child nodeId="node-0x6fc9ad0" />
     </children>
   </item>
-  <item nodeId="node-0x8036f70">
+  <item nodeId="node-0x6fc9ad0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -306,10 +1312,10 @@ You can see witness here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8102790" />
+      <child nodeId="node-0x6fc9b40" />
     </children>
   </item>
-  <item nodeId="node-0x8102790">
+  <item nodeId="node-0x6fc9b40">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Meeting Room
@@ -322,10 +1328,10 @@ You can see Security Door here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfec0c30" />
+      <child nodeId="node-0x6fc9bb0" />
     </children>
   </item>
-  <item nodeId="node-0xfec0c30">
+  <item nodeId="node-0x6fc9bb0">
     <command xml:space="preserve">x locker</command>
     <result xml:space="preserve">A locker used to store items in. Some times people forget things in there, so make sure you don&apos;t
 
@@ -334,10 +1340,10 @@ You can see Security Door here.
     <changed>YES</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8114750" />
+      <child nodeId="node-0x6fc9c20" />
     </children>
   </item>
-  <item nodeId="node-0x8114750">
+  <item nodeId="node-0x6fc9c20">
     <command xml:space="preserve">take base</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -346,10 +1352,10 @@ You can see Security Door here.
     <changed>YES</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x80d4ac0" />
+      <child nodeId="node-0x6fc9c90" />
     </children>
   </item>
-  <item nodeId="node-0x80d4ac0">
+  <item nodeId="node-0x6fc9c90">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Meeting Room
 The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
@@ -361,10 +1367,10 @@ You can see Security Door here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x810be90" />
+      <child nodeId="node-0x6fc9d00" />
     </children>
   </item>
-  <item nodeId="node-0x810be90">
+  <item nodeId="node-0x6fc9d00">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Conference Room
@@ -377,10 +1383,10 @@ You can see witness here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x6bb8680" />
+      <child nodeId="node-0x6fc9d70" />
     </children>
   </item>
-  <item nodeId="node-0x6bb8680">
+  <item nodeId="node-0x6fc9d70">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -393,10 +1399,10 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8107530" />
+      <child nodeId="node-0x6fc9de0" />
     </children>
   </item>
-  <item nodeId="node-0x8107530">
+  <item nodeId="node-0x6fc9de0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -407,10 +1413,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x4242e30" />
+      <child nodeId="node-0x6fc9e50" />
     </children>
   </item>
-  <item nodeId="node-0x4242e30">
+  <item nodeId="node-0x6fc9e50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Offices
@@ -423,10 +1429,10 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf39a530" />
+      <child nodeId="node-0x6fc9ec0" />
     </children>
   </item>
-  <item nodeId="node-0xf39a530">
+  <item nodeId="node-0x6fc9ec0">
     <command xml:space="preserve">take projector</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -435,10 +1441,10 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfeeacc0" />
+      <child nodeId="node-0x6fc9f30" />
     </children>
   </item>
-  <item nodeId="node-0xfeeacc0">
+  <item nodeId="node-0x6fc9f30">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Offices
 This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard&apos;s Office is to the east, and the Hallway is to the west.
@@ -450,10 +1456,10 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8036180" />
+      <child nodeId="node-0x6fc9fa0" />
     </children>
   </item>
-  <item nodeId="node-0x8036180">
+  <item nodeId="node-0x6fc9fa0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Guard&apos;s Office
@@ -466,10 +1472,10 @@ You can see guard here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x81265f0" />
+      <child nodeId="node-0x6fca010" />
     </children>
   </item>
-  <item nodeId="node-0x81265f0">
+  <item nodeId="node-0x6fca010">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Offices
@@ -482,10 +1488,10 @@ You can see work stations (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x813da20" />
+      <child nodeId="node-0x6fca080" />
     </children>
   </item>
-  <item nodeId="node-0x813da20">
+  <item nodeId="node-0x6fca080">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -496,10 +1502,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf3b0de0" />
+      <child nodeId="node-0x6fca0f0" />
     </children>
   </item>
-  <item nodeId="node-0xf3b0de0">
+  <item nodeId="node-0x6fca0f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Elevator
@@ -512,10 +1518,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf370260" />
+      <child nodeId="node-0x6fca160" />
     </children>
   </item>
-  <item nodeId="node-0xf370260">
+  <item nodeId="node-0x6fca160">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -524,10 +1530,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x592e50" />
+      <child nodeId="node-0x6fca1d0" />
     </children>
   </item>
-  <item nodeId="node-0x592e50">
+  <item nodeId="node-0x6fca1d0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -536,10 +1542,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x6be7100" />
+      <child nodeId="node-0x6fca240" />
     </children>
   </item>
-  <item nodeId="node-0x6be7100">
+  <item nodeId="node-0x6fca240">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -548,10 +1554,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x809e280" />
+      <child nodeId="node-0x6fca2b0" />
     </children>
   </item>
-  <item nodeId="node-0x809e280">
+  <item nodeId="node-0x6fca2b0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -560,10 +1566,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x1cc8e0" />
+      <child nodeId="node-0x6fca320" />
     </children>
   </item>
-  <item nodeId="node-0x1cc8e0">
+  <item nodeId="node-0x6fca320">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -572,10 +1578,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8188510" />
+      <child nodeId="node-0x6fca390" />
     </children>
   </item>
-  <item nodeId="node-0x8188510">
+  <item nodeId="node-0x6fca390">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -584,10 +1590,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf3b52e0" />
+      <child nodeId="node-0x6fca400" />
     </children>
   </item>
-  <item nodeId="node-0xf3b52e0">
+  <item nodeId="node-0x6fca400">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -596,10 +1602,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf3713b0" />
+      <child nodeId="node-0x6fca470" />
     </children>
   </item>
-  <item nodeId="node-0xf3713b0">
+  <item nodeId="node-0x6fca470">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Hallway
@@ -610,10 +1616,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8064900" />
+      <child nodeId="node-0x6fca4e0" />
     </children>
   </item>
-  <item nodeId="node-0x8064900">
+  <item nodeId="node-0x6fca4e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Elevator
@@ -626,10 +1632,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x11e150" />
+      <child nodeId="node-0x6fca550" />
     </children>
   </item>
-  <item nodeId="node-0x11e150">
+  <item nodeId="node-0x6fca550">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -638,10 +1644,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8032720" />
+      <child nodeId="node-0x6fca5c0" />
     </children>
   </item>
-  <item nodeId="node-0x8032720">
+  <item nodeId="node-0x6fca5c0">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -650,10 +1656,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8102e40" />
+      <child nodeId="node-0x6fca630" />
     </children>
   </item>
-  <item nodeId="node-0x8102e40">
+  <item nodeId="node-0x6fca630">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -662,10 +1668,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x810ca50" />
+      <child nodeId="node-0x6fca6a0" />
     </children>
   </item>
-  <item nodeId="node-0x810ca50">
+  <item nodeId="node-0x6fca6a0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -674,10 +1680,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf37d7c0" />
+      <child nodeId="node-0x6fca710" />
     </children>
   </item>
-  <item nodeId="node-0xf37d7c0">
+  <item nodeId="node-0x6fca710">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -686,10 +1692,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x80df020" />
+      <child nodeId="node-0x6fca780" />
     </children>
   </item>
-  <item nodeId="node-0x80df020">
+  <item nodeId="node-0x6fca780">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -698,10 +1704,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x805ad10" />
+      <child nodeId="node-0x6fca7f0" />
     </children>
   </item>
-  <item nodeId="node-0x805ad10">
+  <item nodeId="node-0x6fca7f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -710,10 +1716,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x803e330" />
+      <child nodeId="node-0x6fca860" />
     </children>
   </item>
-  <item nodeId="node-0x803e330">
+  <item nodeId="node-0x6fca860">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -722,10 +1728,10 @@ You can see Projector here.
     <changed>YES</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x80ddad0" />
+      <child nodeId="node-0x6fca8d0" />
     </children>
   </item>
-  <item nodeId="node-0x80ddad0">
+  <item nodeId="node-0x6fca8d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -734,10 +1740,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf374610" />
+      <child nodeId="node-0x6fca940" />
     </children>
   </item>
-  <item nodeId="node-0xf374610">
+  <item nodeId="node-0x6fca940">
     <command xml:space="preserve">x crystal</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -746,10 +1752,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfec0370" />
+      <child nodeId="node-0x6fca9b0" />
     </children>
   </item>
-  <item nodeId="node-0xfec0370">
+  <item nodeId="node-0x6fca9b0">
     <command xml:space="preserve">combine crystal with base</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -758,10 +1764,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfed6d70" />
+      <child nodeId="node-0x6fcaa20" />
     </children>
   </item>
-  <item nodeId="node-0xfed6d70">
+  <item nodeId="node-0x6fcaa20">
     <command xml:space="preserve">combine powered machine with base</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -770,10 +1776,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x801b7d0" />
+      <child nodeId="node-0x6fcaa90" />
     </children>
   </item>
-  <item nodeId="node-0x801b7d0">
+  <item nodeId="node-0x6fcaa90">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -782,10 +1788,10 @@ You can see Projector here.
     <changed>YES</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x80e7340" />
+      <child nodeId="node-0x6fcab00" />
     </children>
   </item>
-  <item nodeId="node-0x80e7340">
+  <item nodeId="node-0x6fcab00">
     <command xml:space="preserve">combine a powered machine with projector</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -794,10 +1800,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf3c00c0" />
+      <child nodeId="node-0x6fcab70" />
     </children>
   </item>
-  <item nodeId="node-0xf3c00c0">
+  <item nodeId="node-0x6fcab70">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -806,10 +1812,10 @@ You can see Projector here.
     <changed>YES</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfeace60" />
+      <child nodeId="node-0x6fcabe0" />
     </children>
   </item>
-  <item nodeId="node-0xfeace60">
+  <item nodeId="node-0x6fcabe0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Elevator
 The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
@@ -821,10 +1827,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfe83280" />
+      <child nodeId="node-0x6fcac50" />
     </children>
   </item>
-  <item nodeId="node-0xfe83280">
+  <item nodeId="node-0x6fcac50">
     <command xml:space="preserve">x imagecaster</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -833,10 +1839,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfed57d0" />
+      <child nodeId="node-0x6fcacc0" />
     </children>
   </item>
-  <item nodeId="node-0xfed57d0">
+  <item nodeId="node-0x6fcacc0">
     <command xml:space="preserve">turn imagecaster on</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -845,10 +1851,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfed0780" />
+      <child nodeId="node-0x6fcad30" />
     </children>
   </item>
-  <item nodeId="node-0xfed0780">
+  <item nodeId="node-0x6fcad30">
     <command xml:space="preserve">x imagecaster</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -857,10 +1863,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8050530" />
+      <child nodeId="node-0x6fcada0" />
     </children>
   </item>
-  <item nodeId="node-0x8050530">
+  <item nodeId="node-0x6fcada0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Elevator
 The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
@@ -872,10 +1878,10 @@ You can see Projector here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x111cd0" />
+      <child nodeId="node-0x6fcae10" />
     </children>
   </item>
-  <item nodeId="node-0x111cd0">
+  <item nodeId="node-0x6fcae10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Hallway
@@ -886,10 +1892,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfec6810" />
+      <child nodeId="node-0x6fcae80" />
     </children>
   </item>
-  <item nodeId="node-0xfec6810">
+  <item nodeId="node-0x6fcae80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -902,10 +1908,10 @@ You can see mop bucket (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0x8101170" />
+      <child nodeId="node-0x6fcaef0" />
     </children>
   </item>
-  <item nodeId="node-0x8101170">
+  <item nodeId="node-0x6fcaef0">
     <command xml:space="preserve">take spell note</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -914,10 +1920,10 @@ You can see mop bucket (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf3cafc0" />
+      <child nodeId="node-0x6fcaf60" />
     </children>
   </item>
-  <item nodeId="node-0xf3cafc0">
+  <item nodeId="node-0x6fcaf60">
     <command xml:space="preserve">x spell note</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -926,10 +1932,10 @@ You can see mop bucket (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xfeae9a0" />
+      <child nodeId="node-0x6fcafd0" />
     </children>
   </item>
-  <item nodeId="node-0xfeae9a0">
+  <item nodeId="node-0x6fcafd0">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">The words were said correctly, but it seems that they also need the source material of the spell to channel magic through while .
 
@@ -938,10 +1944,10 @@ You can see mop bucket (closed) here.
     <changed>NO</changed>
     <temporary score="424">YES</temporary>
     <children>
-      <child nodeId="node-0xf3cad70" />
+      <child nodeId="node-0x6fcb040" />
     </children>
   </item>
-  <item nodeId="node-0xf3cad70">
+  <item nodeId="node-0x6fcb040">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no where to go.
 
@@ -950,7 +1956,7 @@ You can see mop bucket (closed) here.
     <changed>NO</changed>
     <temporary score="423">YES</temporary>
   </item>
-  <item nodeId="node-0x512590">
+  <item nodeId="node-0x6fcb0b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -961,10 +1967,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x512230" />
+      <child nodeId="node-0x6fcb120" />
     </children>
   </item>
-  <item nodeId="node-0x512230">
+  <item nodeId="node-0x6fcb120">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -975,10 +1981,10 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x512280" />
+      <child nodeId="node-0x6fcb190" />
     </children>
   </item>
-  <item nodeId="node-0x512280">
+  <item nodeId="node-0x6fcb190">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no where to go.
 
@@ -987,11 +1993,11 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x512940" />
-      <child nodeId="node-0x512780" />
+      <child nodeId="node-0x6fcb3c0" />
+      <child nodeId="node-0x6fcb200" />
     </children>
   </item>
-  <item nodeId="node-0x512780">
+  <item nodeId="node-0x6fcb200">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Hallway
@@ -1002,10 +2008,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x5127f0" />
+      <child nodeId="node-0x6fcb270" />
     </children>
   </item>
-  <item nodeId="node-0x5127f0">
+  <item nodeId="node-0x6fcb270">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Elevator
@@ -1016,10 +2022,10 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x512860" />
+      <child nodeId="node-0x6fcb2e0" />
     </children>
   </item>
-  <item nodeId="node-0x512860">
+  <item nodeId="node-0x6fcb2e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1028,10 +2034,10 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x5128d0" />
+      <child nodeId="node-0x6fcb350" />
     </children>
   </item>
-  <item nodeId="node-0x5128d0">
+  <item nodeId="node-0x6fcb350">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1040,7 +2046,7 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="46">YES</temporary>
   </item>
-  <item nodeId="node-0x512940">
+  <item nodeId="node-0x6fcb3c0">
     <command xml:space="preserve">say portasum openab</command>
     <result xml:space="preserve">The words were said correctly, but it seems that they also need the source material of the spell to channel magic through while .
 
@@ -1049,7 +2055,7 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
   </item>
-  <item nodeId="node-0x5129b0">
+  <item nodeId="node-0x6fcb430">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">Taken.
 
@@ -1058,11 +2064,11 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>NO</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x5126e0" />
-      <child nodeId="node-0x512a20" />
+      <child nodeId="node-0x6fcb7b0" />
+      <child nodeId="node-0x6fcb4a0" />
     </children>
   </item>
-  <item nodeId="node-0x512a20">
+  <item nodeId="node-0x6fcb4a0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">That would make things to easy, try to have some fun :)
 &gt;</result>
@@ -1070,10 +2076,10 @@ The elevator going to other floors, but its locked, so this seems to be a dead e
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x512a90" />
+      <child nodeId="node-0x6fcb510" />
     </children>
   </item>
-  <item nodeId="node-0x512a90">
+  <item nodeId="node-0x6fcb510">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -1084,10 +2090,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x512b00" />
+      <child nodeId="node-0x6fcb580" />
     </children>
   </item>
-  <item nodeId="node-0x512b00">
+  <item nodeId="node-0x6fcb580">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Guard Office
@@ -1097,10 +2103,10 @@ Guard Office
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x512b70" />
+      <child nodeId="node-0x6fcb5f0" />
     </children>
   </item>
-  <item nodeId="node-0x512b70">
+  <item nodeId="node-0x6fcb5f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Offices
@@ -1111,10 +2117,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x512be0" />
+      <child nodeId="node-0x6fcb660" />
     </children>
   </item>
-  <item nodeId="node-0x512be0">
+  <item nodeId="node-0x6fcb660">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -1125,10 +2131,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x512600" />
+      <child nodeId="node-0x6fcb6d0" />
     </children>
   </item>
-  <item nodeId="node-0x512600">
+  <item nodeId="node-0x6fcb6d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -1139,10 +2145,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x512670" />
+      <child nodeId="node-0x6fcb740" />
     </children>
   </item>
-  <item nodeId="node-0x512670">
+  <item nodeId="node-0x6fcb740">
     <command xml:space="preserve">say portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -1151,7 +2157,7 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x5126e0">
+  <item nodeId="node-0x6fcb7b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Offices
@@ -1162,10 +2168,10 @@ This room is the offices for the basic workers, filled with cubical like work st
     <changed>NO</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x512e90" />
+      <child nodeId="node-0x6fcb820" />
     </children>
   </item>
-  <item nodeId="node-0x512e90">
+  <item nodeId="node-0x6fcb820">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
@@ -1176,10 +2182,10 @@ This is just the regular hallway in between most elevators and rooms. The Elevat
     <changed>NO</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x512f00" />
+      <child nodeId="node-0x6fcb890" />
     </children>
   </item>
-  <item nodeId="node-0x512f00">
+  <item nodeId="node-0x6fcb890">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
@@ -1190,11 +2196,11 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x513050" />
-      <child nodeId="node-0x512f70" />
+      <child nodeId="node-0x6fcb9e0" />
+      <child nodeId="node-0x6fcb900" />
     </children>
   </item>
-  <item nodeId="node-0x512f70">
+  <item nodeId="node-0x6fcb900">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -1203,10 +2209,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x512fe0" />
+      <child nodeId="node-0x6fcb970" />
     </children>
   </item>
-  <item nodeId="node-0x512fe0">
+  <item nodeId="node-0x6fcb970">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 
@@ -1217,7 +2223,7 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="79">YES</temporary>
   </item>
-  <item nodeId="node-0x513050">
+  <item nodeId="node-0x6fcb9e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">There is no where to go.
 
@@ -1226,11 +2232,11 @@ This is just a dark closet, not much is in here
     <changed>NO</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x5136b0" />
-      <child nodeId="node-0x5130c0" />
+      <child nodeId="node-0x6fcbc80" />
+      <child nodeId="node-0x6fcba50" />
     </children>
   </item>
-  <item nodeId="node-0x5130c0">
+  <item nodeId="node-0x6fcba50">
     <command xml:space="preserve">portasum obenab</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1239,10 +2245,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x5134f0" />
+      <child nodeId="node-0x6fcbac0" />
     </children>
   </item>
-  <item nodeId="node-0x5134f0">
+  <item nodeId="node-0x6fcbac0">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -1251,10 +2257,10 @@ This is just a dark closet, not much is in here
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x513560" />
+      <child nodeId="node-0x6fcbb30" />
     </children>
   </item>
-  <item nodeId="node-0x513560">
+  <item nodeId="node-0x6fcbb30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -1264,10 +2270,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x5135d0" />
+      <child nodeId="node-0x6fcbba0" />
     </children>
   </item>
-  <item nodeId="node-0x5135d0">
+  <item nodeId="node-0x6fcbba0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -1277,10 +2283,10 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
     <children>
-      <child nodeId="node-0x513640" />
+      <child nodeId="node-0x6fcbc10" />
     </children>
   </item>
-  <item nodeId="node-0x513640">
+  <item nodeId="node-0x6fcbc10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 In a clap of thunder and a bright flash, a glowing portal appears to the north.
@@ -1290,7 +2296,7 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>YES</changed>
     <temporary score="56">YES</temporary>
   </item>
-  <item nodeId="node-0x5136b0">
+  <item nodeId="node-0x6fcbc80">
     <command xml:space="preserve">portasum openab</command>
     <result xml:space="preserve">In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
@@ -1299,11 +2305,11 @@ In a clap of thunder and a bright flash, a glowing portal appears to the north.
     <changed>NO</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x514010" />
-      <child nodeId="node-0x513fc0" />
+      <child nodeId="node-0x6fcbd60" />
+      <child nodeId="node-0x6fcbcf0" />
     </children>
   </item>
-  <item nodeId="node-0x513fc0">
+  <item nodeId="node-0x6fcbcf0">
     <command xml:space="preserve">x portal</command>
     <result xml:space="preserve">Dark Arts Inc
 Dark Arts Inc is Magicorp&apos;s biggest rival, of course they would send some one to sabotage you.
@@ -1320,7 +2326,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0x514010">
+  <item nodeId="node-0x6fcbd60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Void Portal)
 Dark Arts Inc
@@ -1338,10 +2344,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x514080" />
+      <child nodeId="node-0x6fcbdd0" />
     </children>
   </item>
-  <item nodeId="node-0x514080">
+  <item nodeId="node-0x6fcbdd0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Closet
 [Previous turn undone.]
@@ -1351,1095 +2357,89 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="89">YES</temporary>
     <children>
-      <child nodeId="node-0x5140f0" />
+      <child nodeId="node-0x6fcbe40" />
     </children>
   </item>
-  <item nodeId="node-0x5140f0">
+  <item nodeId="node-0x6fcbe40">
     <command xml:space="preserve">x portal</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="88">YES</temporary>
   </item>
-  <item nodeId="node-0x817af30">
-    <command xml:space="preserve">x witness</command>
-    <result xml:space="preserve">A shivering office worker who&apos;s suit is splattered with the blood of the deceased. You could ask him about the murders to find out what happened
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x142390" />
-    </children>
-  </item>
-  <item nodeId="node-0x142390">
-    <command xml:space="preserve">ask about the murders</command>
+  <item nodeId="node-0x3f5930">
+    <command xml:space="preserve">take notes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x804e7c0" />
+      <child nodeId="node-0x3f5a20" />
     </children>
   </item>
-  <item nodeId="node-0x804e7c0">
-    <command xml:space="preserve">ask about murderers</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8101fa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x8101fa0">
-    <command xml:space="preserve">ask about what happened</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x149390" />
-    </children>
-  </item>
-  <item nodeId="node-0x149390">
-    <command xml:space="preserve">ask about murders</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x802dcc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x802dcc0">
-    <command xml:space="preserve">ask witness about murders</command>
-    <result xml:space="preserve">&quot;I was behind a board member as it happened, but I saw that a figure clad in black rushed in and started casting spells of black magic to kill every one. Oh I can&apos;t even try to describe how they died. I did not see who it was, but he ran off north to the Offices, the Security Room to the east might have video of where he went though.&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8125b30" />
-    </children>
-  </item>
-  <item nodeId="node-0x8125b30">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Conference Room
-The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
-
-You can see witness here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80e3890" />
-    </children>
-  </item>
-  <item nodeId="node-0x80e3890">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Meeting Room
-The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8049b00" />
-    </children>
-  </item>
-  <item nodeId="node-0x8049b00">
-    <command xml:space="preserve">x locker</command>
-    <result xml:space="preserve">A locker used to store items in. Some times people forget things in there, so make sure you don&apos;t
-
-In locker is Base.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3020a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x3020a0">
-    <command xml:space="preserve">take base</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80543e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x80543e0">
-    <command xml:space="preserve">x base</command>
-    <result xml:space="preserve">The base of the Imagecaster, it needs to be combined with the other parts. You will need to find the 2 other parts and combine them.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8054360" />
-    </children>
-  </item>
-  <item nodeId="node-0x8054360">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Meeting Room
-The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3758c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x3758c0">
-    <command xml:space="preserve">x security door</command>
-    <result xml:space="preserve">A locked door protecting the Security room. It seems to be locked with a charmed spin dial so magic can not unlock it. The only way to get inside is to SPIN TO a 4 digit code all at once. The guard in the Guard&apos;s Office might know what it is.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8049340" />
-    </children>
-  </item>
-  <item nodeId="node-0x8049340">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Meeting Room
-The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3fbd60" />
-    </children>
-  </item>
-  <item nodeId="node-0x3fbd60">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Security Door)
-The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial at once. You must SPIN THE DIAL TO the correct 4 digit code.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x306210" />
-    </children>
-  </item>
-  <item nodeId="node-0x306210">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Conference Room
-The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
-
-You can see witness here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x815f660" />
-    </children>
-  </item>
-  <item nodeId="node-0x815f660">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Offices
-This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard&apos;s Office is to the east, and the Hallway is to the west.
-
-You can see work stations (in which is Crystal) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8058400" />
-    </children>
-  </item>
-  <item nodeId="node-0x8058400">
-    <command xml:space="preserve">x work stations</command>
-    <result xml:space="preserve">In work stations is Crystal.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8176320" />
-    </children>
-  </item>
-  <item nodeId="node-0x8176320">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Guard&apos;s Office
-This is the office of the security guard. Its sparse with only an empty desk and the guard. The Offices is to the west.
-
-You can see guard here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3f50e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x3f50e0">
-    <command xml:space="preserve">ask gaurd about code</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80ef3b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x80ef3b0">
-    <command xml:space="preserve">ask guard about code</command>
-    <result xml:space="preserve">Hi, I remember you, your that new rising worker, but why do you need to know the code for the security door, aren&apos;t you suppose to be in a meeting with the board members? Wait, what? Dead? All of them?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3e5820" />
-    </children>
-  </item>
-  <item nodeId="node-0x3e5820">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve">That was a rhetorical question.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x14fee0" />
-    </children>
-  </item>
-  <item nodeId="node-0x14fee0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x804f210" />
-    </children>
-  </item>
-  <item nodeId="node-0x804f210">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8101070" />
-    </children>
-  </item>
-  <item nodeId="node-0x8101070">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x814a810" />
-    </children>
-  </item>
-  <item nodeId="node-0x814a810">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Guard&apos;s Office
-This is the office of the security guard. Its sparse with only an empty desk and the guard. The Offices is to the west.
-
-You can see guard here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x811cfb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x811cfb0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x5f1aea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5f1aea0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Offices
-This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard&apos;s Office is to the east, and the Hallway is to the west.
-
-You can see work stations (in which is Crystal) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x813bc50" />
-    </children>
-  </item>
-  <item nodeId="node-0x813bc50">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Conference Room
-The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
-
-You can see witness here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x5f4ea80" />
-    </children>
-  </item>
-  <item nodeId="node-0x5f4ea80">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8111370" />
-    </children>
-  </item>
-  <item nodeId="node-0x8111370">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Meeting Room
-The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x81208b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x81208b0">
-    <command xml:space="preserve">spin dial to 2657</command>
-    <result xml:space="preserve">The door unlocks and glides open
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x806cbb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x806cbb0">
-    <command xml:space="preserve">yes</command>
-    <result xml:space="preserve">That was a rhetorical question.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3610f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x3610f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Conference Room
-The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
-
-You can see witness here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8126120" />
-    </children>
-  </item>
-  <item nodeId="node-0x8126120">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Meeting Room
-The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x5f42db0" />
-    </children>
-  </item>
-  <item nodeId="node-0x5f42db0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Security Door)
-
-Security Room
-This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3589b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x3589b0">
-    <command xml:space="preserve">x imagecaster\</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x811db60" />
-    </children>
-  </item>
-  <item nodeId="node-0x811db60">
-    <command xml:space="preserve">x imagecaster</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x810eb00" />
-    </children>
-  </item>
-  <item nodeId="node-0x810eb00">
-    <command xml:space="preserve">x Imagecaster</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x81424d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x81424d0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Security Room
-This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x5f4ad60" />
-    </children>
-  </item>
-  <item nodeId="node-0x5f4ad60">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Meeting Room
-The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x35e1b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x35e1b0">
-    <command xml:space="preserve">x locker</command>
-    <result xml:space="preserve">A locker used to store items in. Some times people forget things in there, so make sure you don&apos;t
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x805fda0" />
-    </children>
-  </item>
-  <item nodeId="node-0x805fda0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Security Room
-This room holds security for the entire building. The Imagecaster would have seen what happened. The Meeting room is to the west.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8158fd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x8158fd0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Meeting Room
-The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east.
-
-You can see Security Door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x358760" />
-    </children>
-  </item>
-  <item nodeId="node-0x358760">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Conference Room
-The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north.
-
-You can see witness here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80e7d00" />
-    </children>
-  </item>
-  <item nodeId="node-0x80e7d00">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Offices
-This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard&apos;s Office is to the east, and the Hallway is to the west.
-
-You can see work stations (in which is Crystal) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x355c10" />
-    </children>
-  </item>
-  <item nodeId="node-0x355c10">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x112670" />
-    </children>
-  </item>
-  <item nodeId="node-0x112670">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Closet
-This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south.
-
-You can see mop bucket (in which is Spell Note) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x5f47d80" />
-    </children>
-  </item>
-  <item nodeId="node-0x5f47d80">
-    <command xml:space="preserve">x spell note</command>
-    <result xml:space="preserve">A scroll with a low level portal spell that even you could cast, it says &quot;portasum openab.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3c13a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x3c13a0">
+  <item nodeId="node-0x3f5a20">
     <command xml:space="preserve">take note</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x804cef0" />
+      <child nodeId="node-0x3f5a70" />
     </children>
   </item>
-  <item nodeId="node-0x804cef0">
+  <item nodeId="node-0x3f5a70">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">There is no where to go.
+    <result xml:space="preserve">
+Offices
+This room is the offices for the basic workers, filled with cubical like work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard Office is to the east, and the Hallway is to the west.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x804a950" />
+      <child nodeId="node-0x3f5ac0" />
     </children>
   </item>
-  <item nodeId="node-0x804a950">
-    <command xml:space="preserve">s</command>
+  <item nodeId="node-0x3f5ac0">
+    <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Hallway
 This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x5f47dd0" />
+      <child nodeId="node-0x3f5b10" />
     </children>
   </item>
-  <item nodeId="node-0x5f47dd0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-You can see Projector here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x3fb700" />
-    </children>
-  </item>
-  <item nodeId="node-0x3fb700">
-    <command xml:space="preserve">x projector</command>
-    <result xml:space="preserve">The projector of the Imagecaster. Just combine it with the 2 other parts.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8051e70" />
-    </children>
-  </item>
-  <item nodeId="node-0x8051e70">
-    <command xml:space="preserve">take projector</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x5f4c500" />
-    </children>
-  </item>
-  <item nodeId="node-0x5f4c500">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Projector
-  Spell Note
-  Base
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80e1640" />
-    </children>
-  </item>
-  <item nodeId="node-0x80e1640">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80108f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x80108f0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x812ec70" />
-    </children>
-  </item>
-  <item nodeId="node-0x812ec70">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80dc5d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x80dc5d0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x814c6c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x814c6c0">
+  <item nodeId="node-0x3f5b10">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Closet
-This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south.
-
-You can see mop bucket (empty) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x81251f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x81251f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x800b820" />
-    </children>
-  </item>
-  <item nodeId="node-0x800b820">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0xf375920" />
-    </children>
-  </item>
-  <item nodeId="node-0xf375920">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8074ba0" />
-    </children>
-  </item>
-  <item nodeId="node-0x8074ba0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0xfe81e00" />
-    </children>
-  </item>
-  <item nodeId="node-0xfe81e00">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0xf3980b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf3980b0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8122db0" />
-    </children>
-  </item>
-  <item nodeId="node-0x8122db0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8074550" />
-    </children>
-  </item>
-  <item nodeId="node-0x8074550">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0xfeea150" />
-    </children>
-  </item>
-  <item nodeId="node-0xfeea150">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x80dc6b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x80dc6b0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x8063bd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x8063bd0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
+This is just a dark closet, not much is in here
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="208">YES</temporary>
+    <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0x8010a50" />
+      <child nodeId="node-0x3f5b60" />
     </children>
   </item>
-  <item nodeId="node-0x8010a50">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ba840" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ba840">
+  <item nodeId="node-0x3f5b60">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Closet
-This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south.
-
-You can see mop bucket (empty) here.
+    <result xml:space="preserve">(first opening Void Portal)
+In a clap of thunder and a bright flash, a glowing portal appears to the north.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0xf380a90" />
-    </children>
-  </item>
-  <item nodeId="node-0xf380a90">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x81c5df0" />
-    </children>
-  </item>
-  <item nodeId="node-0x81c5df0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0xfec0420" />
-    </children>
-  </item>
-  <item nodeId="node-0xfec0420">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Hallway
-This is just the regular hallway in between most elevators and rooms. The Elevator is to the east, Offices to the west, and a closet to the north.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x6ca2330" />
-    </children>
-  </item>
-  <item nodeId="node-0x6ca2330">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Elevator
-The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="208">YES</temporary>
-    <children>
-      <child nodeId="node-0x813e3e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x813e3e0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="207">YES</temporary>
+    <temporary score="29">YES</temporary>
   </item>
 </Skein>

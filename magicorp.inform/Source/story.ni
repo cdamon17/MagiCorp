@@ -91,9 +91,9 @@ Instead of spinning the closed Security Door to 2657:
 
 [Code for a combination puzzle from Tonic by Brianna Hartner]
 [The combining action]
-Base is a thing. Base is in locker. [Base is undescribed until player walks in Security Room for the first time.] the description is "The base of the Imagecaster, it needs to be combined with the other parts. You will need to find the 2 other parts and combine them."
-Projector is a thing. Projector is in Elevator. the description is "The projector of the Imagecaster. Just combine it with the 2 other parts."
-Crystal is a thing. Crystal is in work stations. the description is "The power crystal of the Imagecaster. Combine it with the other 2 parts to make the Imagecaster."
+Base is a thing. Base is in locker. [Base is undescribed until player walks in Security Room for the first time.] the description is "The base of an Imagecaster, but its useless unless it is combined with the other parts."
+Projector is a thing. Projector is in Elevator. the description is "The projector of an Imagecaster, but it does nothing unless combined with the rest."
+Crystal is a thing. Crystal is in work stations. the description is "The power crystal of the an Imagecaster. Combine it with the other 2 parts to make the Imagecaster."
 
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
@@ -191,14 +191,17 @@ Instead of talking something: say "Try asking about something instead."
 witness is a man. witness is in Conference Room. the description is "A shivering office worker who's suit is splattered with the blood of the deceased. You could ask him about the murders to find out what happened".
 
 After asking witness about "murders": say "'I was behind a board member as it happened, but I saw that a figure clad in black rushed in and started casting spells of black magic to kill every one. Oh I can't even try to describe how they died. I did not see who it was, but he ran off north to the Offices, the Security Room to the east might have video of where he went though.'".
+Understand "murder", "deaths", and "death" as "[murders]".
 
-After asking witness about "murderer": say "He was in a black cloak with the hood up, so I was unable to see who it was. Please find him, this could ruin the company!".
+After asking witness about "murderer": say "The murderer was in a black cloak with the hood up, so I was unable to see who it was. He ran away afterwards, but the Imagecaster inPlease find him, this could ruin the company!".
 
 After asking witness about "Magicorp": say "Our company? We are one of the biggest innovators for techno magical products. We are at the top of the market, our biggest rival, Dark Arts Inc, doesn't even come close, but that might change now with all the board members dead. Please, you have to find the murderer, if you don't. we might all lose our jobs, or even lives.".
+Understand "company", "job", "jobs", and "work" as "[Magicorp]".
 
 guard is a man. guard is in Guard's Office. the description is "He is a stern looking man in the blue guard uniform and sunglasses. He is in charge of the security on this level. He would know the spin dial code to the Security room, you could ask him about it."
 
-After asking guard about "code": say "Hi, I remember you, your that new rising worker, but why do you need to know the code for the security door, aren't you suppose to be in a meeting with the board members? Wait, what? Dead? All of them? Ofcouse I'll help you, we need to find this murder fast! The code is this year, so just spin the dial to 2657.".
+After asking guard about "code": say "Hi, I remember you, your that new rising worker, but why do you need to know the code for the security door, aren't you suppose to be in a meeting with the board members? Wait, what? Dead? All of them? Ofcourse I'll help you, we need to find this murder fast! The code is this year, so just spin the dial to 2657.".
+Understand "security door", and "door" as "[code]".
 
 
 [other npc talking code for more understanding from Clementine Way by Brent Uramoto]
@@ -270,7 +273,49 @@ topic	reply	summary	turn stamp
 
 Every turn rule:
 	If player is in Dark Arts Inc:
-		end the story finally saying "Oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! This can only mean this was an act of sabotage!"
+		end the story finally saying "The portal sucks you in, and you find your self in a lobby, filled with many people in both dark suits and black magician robes. Oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! This can only mean this was an act of sabotage!";
+	Otherwise:
+		If player is in Dark Arts Inc and player does not have Spell Note in inventory:
+			end the story finally saying "The portal sucks you in but on the other side, oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! You are met with magicians pointing wands at you, and one with a black hood on. Its a trap! The murderer knew you were following him and was expecting you to come through. The portal has closed behind you and theres no escape. It seems all is lost for Magicorp now :("
 
 [short route to finish game:
-]
+(steps for non-story completion):
+n
+w
+n
+open bucked
+take note
+portasum openab
+n
+(steps for story completion)
+ask witness about murders
+e
+x door
+w
+n
+e
+ask guard about code
+w
+s
+e
+spin dial to 2657
+e
+w
+open locker
+take base
+w
+n
+open work stations
+take crystal
+combine crystal and base
+w
+w
+take projector
+combine projector and powered machine
+x imagecaster
+e
+n
+open bucket
+take note
+portasum openab
+n]
