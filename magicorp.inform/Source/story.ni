@@ -25,14 +25,14 @@ Rule for printing a parser error when the latest parser error is the nothing to 
 [code needed to change what is said for take all
 if player takes all, say "That would make things to easy."]
 
-When play begins: say "This is an exiting day! You have been invited by the board to sit in on a conference about the company's newest product for techno magic. As you open the door, your face contorts in horror to find all the Conference Room littered with the unmoving bodies of the board members, killed by magic, and one shivering witness in the corner. This is a tragedy, the company will be thrown into ruin from this loss unless the true murderer can be caught. It is up to you to find the culprit and save Magicorp."
+When play begins: say "This is an exciting day! You have been invited by the board to sit in on a conference about the company's newest product for techno magic. As you open the door, your face contorts in horror to find the Conference Room littered with the unmoving bodies of the board members, killed by magic, and one shivering witness in the corner. This is a tragedy, the company will be thrown into ruin from this loss unless the true murderer can be caught. It is up to you to find the culprit and save Magicorp."
 
 The description of the player is "Your wearing your nicest suit for the conference. Magician robes did not seem necessary today."
 
 
-Conference Room is a room. "The room ment to be your next step in the Magicorp ladder, now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north."
+Conference Room is a room. "The room, meant to be your next step in the Magicorp ladder, is now strewn with the bodies of the dead board members with only one living witness in the corner. You will need to find out exactly what happened. Maybe ask the witness about the murders? The Meeting room is to the east and Offices to the north."
 
-bodies is a thing. bodies is in Conference Room. bodies is scenery. the description is "The board members seem to have been... disposed of, in different and unnatural ways, some too gruesome to describe. This can only be the work of a corporate magician to undermine the company. The sight is repulsive, but you are determined to find the one who did this. You could ask the witness about the murders."
+bodies is a thing. bodies is in Conference Room. bodies is scenery. the description is "The board members seem to have been... disposed of, in different magical and unnatural ways, some too gruesome to describe. This can only be the work of a corporate magician to undermine the company. The sight is repulsive, but you are determined to find the one who did this. You could ask the witness about the murders."
 
 Offices is a room. Offices is north of Conference Room. "This room is the offices for the basic workers, filled with closed work stations. it seems like all are oblivious to what happened in the conference room. It would not help to talk to these guys, so just focus on finding the culprit. The Conference Room is to the south, the Guard's Office is to the east, and the Hallway is to the west."
 
@@ -40,9 +40,19 @@ work stations is a container. work stations is closed and openable. work station
 
 Hallway is a room. Hallway is west of Offices and east of Elevator. "This is just the regular hallway in between most elevators and rooms. The Elevator is to the west, Offices to the east, and a closet to the north."
 
+broom door is a door. broom door is north of Hallway and south of Closet. broom door is undescribed. broom door is fixed in place, locked and lockable, closed and openable. the description is "The door to the closet."
+[locked door code from Riley Kam]
+Instead of opening broom door:
+	If player does not have Imagecaster:
+		say "The door to the closet, there really seems to be no need to go in there right now though.";
+	If the player has Imagecaster:
+		move player to Closet;
+	now broom door is unlocked;
+	now broom door is open.
+
 Elevator is a room. Elevator is west of Hallway. "The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east."
 
-Closet is a room. Closet is north of Hallway. "This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south."
+Closet is a room. Closet is north of broom door. "This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south."
 
 mop bucket is a container. mop bucket is closed and openable. mop bucket is in Closet. mob bucket is undescribed. the description is "a bucket with the lid closed, it looks like the kind the janitor uses."
 
@@ -54,9 +64,11 @@ desk is a supporter. desk is in Guard's Office. desk is undescribed. the descrip
 
 Meeting Room is a room. Meeting Room is east of Conference Room. "The Meeting room is a secondary room to meet in if the Conference room is being used, it only has a locker to hold stuff. The Conference room is to the west, and Security room to the east."
 
-locker is a container. locker is closed and openable. locker is fixed in place. locker is in Meeting Room. locker is undescribed. the description is "A locker used to store items in. Some times people forget things in there, so make sure you don't"
+locker is a container. locker is closed and openable. locker is fixed in place. locker is in Meeting Room. locker is undescribed. the description is "A locker used to store items in. Some times people forget things in there, so make sure you don't leave anything behind."
 
-Security Room is a room. Security Room is east of Security Door. "This room holds security for the entire building. The Imagecaster would have seen what happened, but it seems to be missing! The dust around where it should be suggests that it was broken apart though, the murderer must have done this to cover his tracks! You will need to find the missing peaces and combine them back into an Imagecaster so you can see how the murderer escaped. The Meeting room is to the west."
+Security Room is a room. Security Room is east of Security Door. "This room holds security for the entire building. The Imagecaster would have seen what happened, but it seems to be missing! The dust around where it should be suggests that it was broken apart though, the murderer must have done this to cover his tracks! You will need to find the missing peaces and combine them back into an Imagecaster so you can examine it and see how the murderer escaped. The Meeting room is to the west."
+
+dust is a thing. dust is scenery. the description is "A pile of dust surrounding where the Imagecaster would have been."
 
 [spin dial locked door from Laboratory Escape by Cole Damon]
 Security Door is a door. Security Door is east of Meeting Room. Security Door is fixed in place, locked and lockable, closed and openable. the description is "A locked door protecting the Security room. It seems to be locked with a charmed spin dial so magic can not unlock it. The only way to get inside is to SPIN TO a 4 digit code all at once. The guard in the Guard's Office might know what it is."
@@ -97,6 +109,7 @@ Crystal is a thing. Crystal is in work stations. the description is "The power c
 
 Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
+Understand "and" as "[with]".
 
 [The line below tells Inform7 that combining produces something.]
 The combining it with action has an object called the Contraption.
@@ -178,7 +191,7 @@ Instead of doing anything to Void Portal: [This code tells player that he cannot
 Instead of going north from Closet when VoidPortal is 0:
 	say "There is no where to go."
 
-Spell Note is a thing. Spell Note is in mop bucket. the description is "A scroll with a low level portal spell that even you could cast, it says 'portasum openab."
+Spell Note is a thing. Spell Note is in mop bucket. the description is "A scroll with a low level portal spell that even you could cast, it says 'portasum openab.'"
 	
 Void Portal is a door. Void Portal is north of Closet and south of Dark Arts Inc. Void Portal is scenery.[Void Portal starts game removed from play.] the description is "A swirling purple portal. It could lead anywhere, but you know you that going through it is the only way to discover the murderer."
 
@@ -190,18 +203,19 @@ Instead of talking something: say "Try asking about something instead."
 
 witness is a man. witness is in Conference Room. the description is "A shivering office worker who's suit is splattered with the blood of the deceased. You could ask him about the murders to find out what happened".
 
-After asking witness about "murders": say "'I was behind a board member as it happened, but I saw that a figure clad in black rushed in and started casting spells of black magic to kill every one. Oh I can't even try to describe how they died. I did not see who it was, but he ran off north to the Offices, the Security Room to the east might have video of where he went though.'".
+After asking witness about "murders": say "I was behind a board member as it happened, but I saw that a figure clad in black rushed in and started casting spells of black magic to kill every one. Oh, I can't even try to describe how they died. I did not see who it was, but he ran off north to the Offices, the Security Room to the east might have video of where he went though.'".
 Understand "murder", "deaths", and "death" as "[murders]".
 
-After asking witness about "murderer": say "The murderer was in a black cloak with the hood up, so I was unable to see who it was. He ran away afterwards, but the Imagecaster inPlease find him, this could ruin the company!".
+After asking witness about "murderer": say "'The murderer was in a black cloak with the hood up, so I was unable to see who it was. He ran away afterwards, but the Imagecaster inPlease find him, this could ruin the company!'".
+Understand "killer" as "[murderer]".
 
-After asking witness about "Magicorp": say "Our company? We are one of the biggest innovators for techno magical products. We are at the top of the market, our biggest rival, Dark Arts Inc, doesn't even come close, but that might change now with all the board members dead. Please, you have to find the murderer, if you don't. we might all lose our jobs, or even lives.".
+After asking witness about "Magicorp": say "'Our company? We are one of the biggest innovators for techno magical products. We are at the top of the market, our biggest rival, Dark Arts Inc, doesn't even come close, but that might change now with all the board members dead. Please, you have to find the murderer, if you don't. we might all lose our jobs, or even lives.'".
 Understand "company", "job", "jobs", and "work" as "[Magicorp]".
 
 guard is a man. guard is in Guard's Office. the description is "He is a stern looking man in the blue guard uniform and sunglasses. He is in charge of the security on this level. He would know the spin dial code to the Security room, you could ask him about it."
 
-After asking guard about "code": say "Hi, I remember you, your that new rising worker, but why do you need to know the code for the security door, aren't you suppose to be in a meeting with the board members? Wait, what? Dead? All of them? Ofcourse I'll help you, we need to find this murder fast! The code is this year, so just spin the dial to 2657.".
-Understand "security door", and "door" as "[code]".
+After asking guard about "code": say "'Hi, I remember you, you are that new rising worker, but why do you need to know the code for the security door, aren't you suppose to be in a meeting with the board members?[line break]Wait, what? Dead?[line break]All of them?[line break]Of course I'll help you, we need to find this murderer fast! The code is this year, so just spin the dial to 2657.'".
+Understand "security door", "password", "spin dial", "spin dial code", and "door" as "[code]".
 
 
 
@@ -275,16 +289,29 @@ topic	reply	summary	turn stamp
 
 [alternate ending code was revised by Mrs. Kiang so that game would check if player end game with Spell Note or not for which ending to use]
 Every turn rule when the location of the player is Dark Arts Inc:
-	If player is carrying the Spell Note:
+	If player is carrying the Imagecaster:
 		end the story finally saying "The portal sucks you in, and you find your self in a lobby, filled with many people in both dark suits and black magician robes. Oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! This can only mean this was an act of sabotage!";
-	Otherwise: [will trigger if player is in Dark Arts Inc not carrying Spell Note]
+	Otherwise: [will trigger if player is in Dark Arts Inc not carrying ]
 		end the story finally saying "The portal sucks you in but on the other side, oh, no. This is Dark Arts Inc, Magicorp's biggest rival in techno magic innovation! You are met with magicians pointing wands at you, and one with a black hood on. Its a trap! The murderer knew you were following him and was expecting you to come through. The portal has closed behind you and theres no escape. It seems all is lost for Magicorp now :("
 			
 
 [short route to finish game:
 (steps for non-story completion):
-n
+
+
+e
+open locker
+take base
 w
+n
+open work stations
+take crystal
+combine base with crystal
+w
+w
+take projector
+combine powered machine with projector
+e
 n
 open bucked
 take note
