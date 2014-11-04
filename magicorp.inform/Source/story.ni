@@ -40,12 +40,25 @@ work stations is a container. work stations is closed and openable. work station
 
 Hallway is a room. Hallway is west of Offices and east of Elevator. "This is just the regular hallway in between most elevators and rooms. The Elevator is to the west, Offices to the east, and a closet to the north."
 
-[locked door code from Elana Shi]
-Instead of going to a room which is Closet: say "[if player is not carrying Imagecaster]The door to the closet, there really seems to be no need to go in there right now though.[end if]".
+broom door is a door. broom door is north of Hallway and south of Closet. broom door is undescribed. broom door is fixed in place, locked and lockable, closed and openable. the description is "The door to the closet."
+[locked door code from Riley Kam]
+Instead of opening broom door:
+	If player does not have Imagecaster:
+		say "The door to the closet, there really seems to be no need to go in there right now though.";
+	If the player has Imagecaster:
+		move player to Closet;
+	now broom door is unlocked;
+	now broom door is open.
 
 Elevator is a room. Elevator is west of Hallway. "The elevator going to other floors, but its locked, so this seems to be a dead end. The Hallway is to the east."
 
-Closet is a room. Closet is north of Hallway. "This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south."
+Closet is a room. Closet is north of broom door. "This is just a dark closet, not much is in here besides a closed mop bucket. The Hallway is to the south."
+
+Instead of going to a room which is the Closet when player is carrying Imagecaster:
+	move player to Closet.
+	
+Instead of going to a room which is the Closet when player is not carrying Imagecaster:
+	say "You have no reason to go inside."
 
 mop bucket is a container. mop bucket is closed and openable. mop bucket is in Closet. mob bucket is undescribed. the description is "a bucket with the lid closed, it looks like the kind the janitor uses."
 
